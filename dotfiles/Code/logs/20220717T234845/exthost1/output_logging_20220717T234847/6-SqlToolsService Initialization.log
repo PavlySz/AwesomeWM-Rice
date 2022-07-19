@@ -1,0 +1,5 @@
+Initializing SQL tools service for the mssql extension.
+Note: mssql commands will be available after installing the service.
+
+Platform: linux, x86_64, name=arcolinux, version=unknown (Ubuntu16)
+

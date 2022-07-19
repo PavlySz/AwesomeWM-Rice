@@ -1,0 +1,735 @@
+["INFO" - 10:29:42 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 10:29:42 PM] Extension Version: 9.5.0.
+["INFO" - 10:29:55 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:29:55 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:29:55 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:29:55 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:29:55 PM] Formatting completed in 0.043ms.
+["INFO" - 10:34:18 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:34:18 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:34:18 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:34:18 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:34:18 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:34:18 PM] Formatting completed in 0.012ms.
+["INFO" - 10:34:19 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:34:19 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:34:19 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:34:19 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:34:19 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:34:19 PM] Formatting completed in 0.02ms.
+["INFO" - 10:34:19 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:34:19 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:34:19 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:34:19 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:34:19 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:34:19 PM] Formatting completed in 0.023ms.
+["INFO" - 10:34:19 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:34:19 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:34:19 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:34:19 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:34:19 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:34:19 PM] Formatting completed in 0.007ms.
+["INFO" - 10:34:19 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:34:19 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:34:19 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:34:19 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:34:19 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:34:19 PM] Formatting completed in 0.007ms.
+["INFO" - 10:34:31 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:34:31 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:34:31 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:34:31 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:34:31 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:34:31 PM] Formatting completed in 0.004ms.
+["INFO" - 10:34:31 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:34:31 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:34:31 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:34:31 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:34:31 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:34:31 PM] Formatting completed in 0.003ms.
+["INFO" - 10:35:13 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:35:13 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:35:13 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:35:13 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:35:13 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:35:13 PM] Formatting completed in 0.004ms.
+["INFO" - 10:35:13 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:35:13 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:35:13 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:35:13 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:35:13 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:35:13 PM] Formatting completed in 0.003ms.
+["INFO" - 10:35:26 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:35:26 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:35:26 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:35:26 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:35:26 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:35:26 PM] Formatting completed in 0.004ms.
+["INFO" - 10:35:26 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:35:26 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:35:26 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:35:26 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:35:26 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:35:26 PM] Formatting completed in 0.008ms.
+["INFO" - 10:35:43 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:35:43 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:35:43 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:35:43 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:35:43 PM] Formatting completed in 0.009ms.
+["INFO" - 10:35:44 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:35:44 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:35:44 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:35:44 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:35:44 PM] Formatting completed in 0.01ms.
+["INFO" - 10:35:45 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:35:45 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:35:45 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:35:45 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:35:45 PM] Formatting completed in 0.008ms.
+["INFO" - 10:35:45 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:35:45 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:35:45 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:35:45 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:35:45 PM] Formatting completed in 0.006ms.
+["INFO" - 10:37:21 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:37:21 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:37:21 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:37:21 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:37:21 PM] Formatting completed in 0.008ms.
+["INFO" - 10:37:27 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:37:27 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:37:27 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:37:27 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:37:27 PM] Formatting completed in 0.006ms.
+["INFO" - 10:37:37 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:37:37 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:37:37 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:37:37 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:37:37 PM] Formatting completed in 0.008ms.
+["INFO" - 10:37:48 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:37:48 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:37:48 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:37:48 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:37:48 PM] Formatting completed in 0.007ms.
+["INFO" - 10:41:04 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:41:04 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:41:04 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:41:04 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:41:04 PM] Formatting completed in 0.012ms.
+["INFO" - 10:42:27 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:42:27 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:42:27 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:42:27 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:42:27 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:42:27 PM] Formatting completed in 0.004ms.
+["INFO" - 10:42:27 PM] Formatting file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json
+["INFO" - 10:42:27 PM] Using ignore file (if present) at /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.prettierignore
+["INFO" - 10:42:27 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:42:27 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:42:27 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/.vscode/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:42:27 PM] Formatting completed in 0.004ms.
+["INFO" - 10:45:17 PM] Formatting vscode-userdata:/home/bot/.config/Code/User/settings.json
+["INFO" - 10:45:17 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "json"
+}
+["INFO" - 10:45:17 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:45:17 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/bot/.config/Code/User/settings.json",
+  "parser": "json"
+}
+["INFO" - 10:45:17 PM] Formatting completed in 0.008ms.

@@ -1,0 +1,51 @@
+Linter Name: Pylint
+Linter Module: pylint
+CWD Linter Server: /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting
+sys.path used to run Linter:
+   /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/bundled/linter
+   /home/bot/anaconda3/envs/bright/lib/python310.zip
+   /home/bot/anaconda3/envs/bright/lib/python3.10
+   /home/bot/anaconda3/envs/bright/lib/python3.10/lib-dynload
+   /home/bot/.local/lib/python3.10/site-packages
+   /home/bot/anaconda3/envs/bright/lib/python3.10/site-packages
+   /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/bundled/libs
+Settings used to run Linter:
+[
+    {
+        "workspace": "file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting",
+        "trace": "error",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "interpreter": [
+            "/home/bot/anaconda3/envs/bright/bin/python"
+        ]
+    }
+]
+
+pylint --reports=n --output-format=json --from-stdin /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py
+CWD Linter: /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting
+file:///home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py :
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+

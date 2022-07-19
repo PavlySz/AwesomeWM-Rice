@@ -1,0 +1,46 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+LSP Notebooks experiment is disabled -- not in treatment group
+> conda info --json
+Python interpreter path: ~/anaconda3/envs/bright/bin/python
+> ~/.conda/bin/conda info --json
+> ~/anaconda3/bin/conda info --json
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/bright/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/tf2/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]

@@ -1,0 +1,21 @@
+[2022-07-17 22:56:29.175] [renderer1] [critical] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-07-17 22:56:30.535] [renderer1] [error] [Extension Host] (node:307715) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-07-17 23:04:01.807] [renderer1] [error] write after end: Error: write after end
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125318
+    at new Promise (<anonymous>)
+    at u.write (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125236)
+    at m.doWrite (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114843)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114738
+[2022-07-17 23:04:07.027] [renderer1] [error] write after end: Error: write after end
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125318
+    at new Promise (<anonymous>)
+    at u.write (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125236)
+    at m.doWrite (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114843)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114738

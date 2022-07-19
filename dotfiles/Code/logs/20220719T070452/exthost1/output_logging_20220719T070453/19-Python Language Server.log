@@ -1,0 +1,16 @@
+[Info  - 7:04:58 AM] (8424) Pylance language server 2022.7.30 (pyright f3e85ee2) starting
+[Info  - 7:04:58 AM] (8424) Server root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist
+Notebook support: LSP
+[Info  - 7:04:58 AM] (8424) No configuration file found.
+[Info  - 7:04:58 AM] (8424) No pyproject.toml file found.
+[Info  - 7:04:58 AM] (8424) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 7:04:58 AM] (8424) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 7:04:58 AM] (8424) Assuming Python version 3.10
+[Info  - 7:04:58 AM] (8424) Assuming Python platform Linux
+[Info  - 7:04:58 AM] (8424) Searching for source files
+[Info  - 7:04:58 AM] (8424) Found 9 source files
+[Info  - 7:04:58 AM] (8424) Background analysis(1) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist
+[Info  - 7:04:58 AM] (8424) Background analysis(1) started
+[Info  - 7:04:58 AM] (8424) Indexer background runner(2) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 7:04:58 AM] (8424) Indexing(2) started
+[Info  - 7:05:00 AM] (8424) Indexer done(2). indexed 453 files

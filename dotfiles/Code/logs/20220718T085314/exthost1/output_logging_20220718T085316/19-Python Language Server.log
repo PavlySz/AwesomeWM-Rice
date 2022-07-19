@@ -1,0 +1,59 @@
+[Info  - 8:53:20 AM] (12832) Pylance language server 2022.7.30 (pyright f3e85ee2) starting
+[Info  - 8:53:20 AM] (12832) Server root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist
+Notebook support: Legacy
+[Info  - 8:53:21 AM] (12832) No configuration file found.
+[Info  - 8:53:21 AM] (12832) No pyproject.toml file found.
+[Info  - 8:53:21 AM] (12832) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 8:53:21 AM] (12832) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 8:53:21 AM] (12832) Assuming Python version 3.10
+[Info  - 8:53:21 AM] (12832) Assuming Python platform Linux
+[Info  - 8:53:21 AM] (12832) Searching for source files
+[Info  - 8:53:21 AM] (12832) Found 5 source files
+[Info  - 8:53:21 AM] (12832) Background analysis(1) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist
+[Info  - 8:53:21 AM] (12832) Background analysis(1) started
+[Info  - 8:53:21 AM] (12832) Indexer background runner(2) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 8:53:21 AM] (12832) Indexing(2) started
+[Info  - 8:53:22 AM] (12832) Indexer done(2). indexed 453 files
+[Info  - 8:53:31 AM] (12832) Searching for source files
+[Info  - 8:53:31 AM] (12832) Found 5 source files
+[Info  - 8:53:40 AM] (12832) Searching for source files
+[Info  - 8:53:40 AM] (12832) Found 5 source files
+[Info  - 8:53:47 AM] (12832) Searching for source files
+[Info  - 8:53:47 AM] (12832) Found 5 source files
+[Info  - 8:54:16 AM] (12832) Searching for source files
+[Info  - 8:54:16 AM] (12832) Found 6 source files
+[Info  - 8:54:33 AM] (12832) Searching for source files
+[Info  - 8:54:33 AM] (12832) Found 7 source files
+[Info  - 8:54:37 AM] (12832) Searching for source files
+[Info  - 8:54:37 AM] (12832) Found 8 source files
+[Info  - 8:54:41 AM] (12832) Searching for source files
+[Info  - 8:54:41 AM] (12832) Found 9 source files
+[Info  - 9:08:39 AM] (12832) Searching for source files
+[Info  - 9:08:39 AM] (12832) Found 9 source files
+[Info  - 9:19:07 AM] (12832) Searching for source files
+[Info  - 9:19:07 AM] (12832) Found 9 source files
+[Info  - 10:12:09 AM] (12832) No configuration file found.
+[Info  - 10:12:09 AM] (12832) No pyproject.toml file found.
+[Info  - 10:12:09 AM] (12832) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:12:09 AM] (12832) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:12:09 AM] (12832) Assuming Python version 3.10
+[Info  - 10:12:09 AM] (12832) Assuming Python platform Linux
+[Info  - 10:12:09 AM] (12832) Searching for source files
+[Info  - 10:12:09 AM] (12832) Found 9 source files
+[Info  - 10:12:10 AM] (12832) Indexer background runner(3) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 10:12:10 AM] (12832) Indexing(3) started
+[Info  - 10:12:10 AM] (12832) Indexer done(3). indexed 453 files
+[Info  - 10:12:29 AM] (12832) Indexer background runner(4) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (refresh)
+[Info  - 10:12:29 AM] (12832) Indexing(4) started
+[Info  - 10:12:30 AM] (12832) Indexer done(4). indexed 453 files
+[Info  - 10:13:13 AM] (12832) No configuration file found.
+[Info  - 10:13:13 AM] (12832) No pyproject.toml file found.
+[Info  - 10:13:13 AM] (12832) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:13:13 AM] (12832) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:13:13 AM] (12832) Assuming Python version 3.10
+[Info  - 10:13:13 AM] (12832) Assuming Python platform Linux
+[Info  - 10:13:13 AM] (12832) Searching for source files
+[Info  - 10:13:13 AM] (12832) Found 9 source files
+[Info  - 10:13:13 AM] (12832) Indexer background runner(5) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 10:13:13 AM] (12832) Indexing(5) started
+[Info  - 10:13:14 AM] (12832) Indexer done(5). indexed 453 files

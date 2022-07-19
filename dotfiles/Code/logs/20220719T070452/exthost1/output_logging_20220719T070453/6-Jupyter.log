@@ -1,0 +1,18 @@
+Visual Studio Code (1.69.1, undefined, desktop)
+Jupyter Extension Version: 2022.6.1201981810.
+Python Extension Version: 2022.10.1.
+Workspace folder /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting
+info 7:4:54.621: ZMQ install verified.
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+info 7:4:54.870: LSP Notebooks experiment is enabled
+info 7:4:55.827: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+info 7:4:55.860: Process Execution: > ~/anaconda3/envs/bright/bin/python -m pip list
+> ~/anaconda3/envs/bright/bin/python -m pip list
+info 7:5:25.662: Shutting down notebooks for 3add91eb-c74c-4145-babe-0ea0a42b86c4
+info 7:5:25.662: Disposing HostJupyterExecution 0165c72e-817a-496a-807e-75416b346214
+info 7:5:25.662: Disposing super HostJupyterExecution 0165c72e-817a-496a-807e-75416b346214
+info 7:5:25.662: Disposing HostJupyterExecution 0165c72e-817a-496a-807e-75416b346214
+info 7:5:25.662: Finished disposing HostJupyterExecution  0165c72e-817a-496a-807e-75416b346214
+info 7:5:25.667: Cleaning up server cache 0165c72e-817a-496a-807e-75416b346214
+info 7:5:25.668: Finished disposing HostJupyterExecution  0165c72e-817a-496a-807e-75416b346214

@@ -1,0 +1,62 @@
+[1658207094652] INFO  (ext): SQLTools is starting
+[1658207094653] INFO  (ext): initializing language client...
+[1658207094654] INFO  (ext): Registering client for languages [{"scheme":"sqltools"},{"language":"sql","scheme":"untitled"},{"language":"sql","scheme":"file"},{"language":"sql","scheme":"sqltools"}]
+    ns: "lc"
+[1658207094654] INFO  (ext): loading plugins...
+[1658207094654] INFO  (ext): registering Formatter Plugin.
+    plugin: {
+      "name": "Formatter Plugin"
+    }
+[1658207094654] INFO  (ext): registering Connection Manager Plugin.
+    plugin: {
+      "name": "Connection Manager Plugin"
+    }
+[1658207094655] INFO  (ext): registering CodeLens Plugin.
+    plugin: {
+      "name": "CodeLens Plugin",
+      "registeredLanguages": []
+    }
+[1658207094656] INFO  (ext): registering Dependency Manager Plugin.
+    plugin: {
+      "name": "Dependency Manager Plugin",
+      "installingDrivers": []
+    }
+[1658207094657] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"
+[1658207094657] INFO  (ext): registering History Manager Plugin.
+    plugin: {
+      "name": "History Manager Plugin"
+    }
+[1658207094657] INFO  (ext): registering Bookmarks Manager Plugin.
+    plugin: {
+      "name": "Bookmarks Manager Plugin"
+    }
+[1658207094658] INFO  (ext): SQLTools activation completed. 5.629306 ms
+[1658207094659] INFO  (ext): Formatter Plugin registered!
+[1658207094659] INFO  (ext): CodeLens Plugin registered!
+[1658207094659] INFO  (ext): Dependency Manager Plugin registered!
+[1658207094660] INFO  (ext): Connection Manager Plugin registered!
+[1658207094660] INFO  (ext): History Manager Plugin registered!
+[1658207094660] INFO  (ext): Bookmarks Manager Plugin registered!
+[1658207094988] INFO  (ls): SQLTools Server started!
+===============================
+Using node runtime?: no
+ExecPath: /opt/visual-studio-code/code 
+===============================
+[1658207094990] INFO  (ls): Telemetry enabled!
+    ns: "telemetry"
+[1658207095831] INFO  (ext): LanguageClient ready
+    ns: "lc"
+[1658207095832] INFO  (ext): EXECUTING COMMAND => sqltools.refreshTree
+[1658207095832] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"
+[1658207096125] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"
+[1658207096656] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"
+[1658207097306] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"
+[1658207097814] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"
+[1658207099727] INFO  (ext): Connection explorer changed. Will be updated.
+    ns: "conn-man:explorer"

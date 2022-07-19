@@ -1,0 +1,270 @@
+{
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "editor.fontSize": 18,
+  // "window.menuBarVisibility": "toggle", // alt to open Menu bar
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "terminal.integrated.inheritEnv": false,
+  "jupyter.askForKernelRestart": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "files.autoSave": "afterDelay",
+  // "editor.defaultFormatter": "ms-python.python",
+  "editor.formatOnSave": true, // true
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "html.format.contentUnformatted": "",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.lineHeight": 1,
+  "editor.renderControlCharacters": true,
+  "workbench.colorTheme": "Ayu Dark",
+  // "python.defaultInterpreterPath": "/home/bot/anaconda3/bin/python",
+  // "[python]": {
+  //   "editor.defaultFormatter": "ms-python.vscode-pylance" // WAS ms-python.python
+  // },
+  "notebook.lineNumbers": "on",
+  // "python.analysis.completeFunctionParens": true,
+  // "python.analysis.typeCheckingMode": "basic",
+  // "python.autoComplete.extraPaths": [
+  //   "~/.local/lib/Google/google_appengine",
+  //   "~/.local/lib/Google/google_appengine/lib/flask-0.12"
+  // ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.analysis.extraPaths": [
+    "~/.local/lib/Google/google_appengine",
+    "~/.local/lib/Google/google_appengine/lib/flask-0.12"
+  ],
+  "python.languageServer": "Pylance",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // "autoDocstring.quoteStyle": "'''",
+  // Linting Py
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    // "--disable=W1618", // C0103,W1618,W1632,W0141
+    // "--extension-pkg-whitelist=cv2,numpy",
+    // "--max-line-length=100"
+    "--enable=W0612" //F,E,W
+    // "--enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode"
+  ],
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": ["--enable=E,W,F,C,N"],
+  "python.linting.maxNumberOfProblems": 100,
+  "python.linting.prospectorEnabled": true,
+  // "python.linting.prospectorArgs": ["--enable=E,W,F,C,N"],
+  "python.linting.prospectorArgs": ["-s", "veryhigh"],
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length=100"],
+  "python.linting.pycodestyleEnabled": true,
+  "python.linting.pycodestyleCategorySeverity.W": "Hint",
+  "python.linting.pycodestyleCategorySeverity.E": "Error",
+  "python.linting.pycodestyleArgs": ["--max-line-length=100"],
+  "security.workspace.trust.untrustedFiles": "open",
+  // "kite.showWelcomeNotificationOnStartup": false,
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": false,
+  "jupyter.interactiveWindowMode": "perFile",
+  "notebook.output.textLineLimit": 120,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "razor": "html",
+    "plaintext": "pug"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // "window.titleBarStyle": "custom",
+
+  // ? Ayu Dark
+  "workbench.colorCustomizations": {
+    // "tab.activeBorderTop": "#c9a022",
+    // "panel.border": "#c9a022",
+    // "panelTitle.activeBorder": "#c9a022",
+    // "activityBar.background": "#21252b",
+    // "activityBar.border": "#c9a022",
+    // "terminal.border": "#c9a022",
+    // "statusBar.border": "#ff0000",
+    // "tab.border": "#c9a022",
+    // "sideBar.border": "#c9a022",
+    // "sideBar.dropBackground": "#ff0000"
+    // "menu.border": "#ff0000",
+    "breadcrumb.background": "#0D1017",
+    "editorGroupHeader.tabsBackground": "#0D1017",
+    "editor.background": "#0D1017",
+    "editorLineNumber.activeForeground": "#11b7d4",
+    "panel.background": "#0D1017",
+    "terminalCursor.foreground": "#33BAE6",
+    "terminal.background": "#0D1017"
+  },
+
+  // ? Eva Dark Italic
+  // "workbench.colorCustomizations": {
+  //   // "breadcrumb.background": "#21252b",
+  //   "tab.activeBorderTop": "#c9a022",
+  //   "panel.background": "#21252b",
+  //   "panel.border": "#c9a022",
+  //   "panelTitle.activeBorder": "#c9a022",
+  //   "activityBar.background": "#21252b",
+  //   // "activityBar.border": "#c9a022",
+  //   // "terminal.border": "#c9a022",
+  //   "terminal.background": "#21252b",
+  //   "terminalCursor.foreground": "#c9a022",
+  //   // "tab.border": "#c9a022",
+  //   // "sideBar.border": "#c9a022"
+  //   // "sideBar.dropBackground": "#ff0000"
+  //   // "menu.border": "#ff0000",
+  //   // "sideBar.background": "#444444",
+  // }
+
+  // No idea which theme this belongs to. Figure it out later
+  // "workbench.colorCustomizations": {
+  //   "panel.border": "#11b7d4",
+  //   // "terminalCursor.foreground": "#11b7d4",
+  //   "editor.background": "#14171b",
+  //   "terminal.background": "#14171b",
+  //   "editorLineNumber.activeForeground": "#11b7d4"
+  //   // "statusBar.border": "#ff0000",
+  // },
+
+  // ? Horizon colorscheme
+  // "workbench.colorCustomizations": {
+  //   "sideBar.background": "#1a1c24", // #1c1e26    // #18191f
+  //   "activityBar.background": "#1a1c24"
+  //   // "editorGroupHeader.tabsBackground": "#202129",
+  //   // "tab.activeBackground": "#16181f",    // 1a1c24   // 1b1c22
+  //   // "tab.inactiveBackground": "#1e1f27"   // #1f2027
+  // },
+
+  // ? Gruvbox Material colorscheme
+  // "workbench.colorCustomizations": {
+  //   "editor.background": "#252525", // 292828
+  //   "sideBar.background": "#212121",
+  //   "activityBar.background": "#212121",
+  //   "tab.activeBackground": "#212121",
+  //   // "tab.inactiveBackground": "#1e1f27"
+
+  //   // "editorGroupHeader.tabsBackground": "#202129",
+  // },
+
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+
+  // Better Comments extension settings
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      // // elp
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?!",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "dart.openDevTools": "flutter",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "git.autofetch": true,
+  // "python.formatting.provider": "black",
+  // "python.formatting.blackArgs": ["--line-length", "100"],
+  "editor.rulers": [100],
+
+  // Error Lens settings
+  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info"],
+  "workbench.iconTheme": "material-icon-theme",
+  "git.confirmSync": false,
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "window.zoomLevel": 1
+}

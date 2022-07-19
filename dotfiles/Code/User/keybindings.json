@@ -1,0 +1,38 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+,",
+    "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "ctrl+0 ctrl+0",
+    "command": "jupyter.runallcells"
+  },
+  {
+    "key": "ctrl+r ctrl+r",
+    "command": "jupyter.restartkernel"
+  },
+  {
+    "key": "ctrl+r ctrl+r",
+    "command": "jupyter.notebookeditor.restartkernel"
+  },
+  {
+    "key": "ctrl+0 ctrl+0",
+    "command": "notebook.execute"
+  },
+  {
+    "key": "ctrl+f2",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+f2",
+    "command": "-editor.action.changeAll",
+    "when": "editorTextFocus && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+f2",
+    "command": "-editor.action.linkedEditing",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  }
+]

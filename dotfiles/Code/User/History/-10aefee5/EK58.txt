@@ -1,0 +1,7 @@
+boto3
+redshift_connector 
+pandas 
+numpy
+psycopg2
+boto3                         1.21.32
+botocore                      1.24.32

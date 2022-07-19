@@ -1,0 +1,5 @@
+*.history
+*.vscode
+*analysis/*
+*__pycache__*
+*_BKP*

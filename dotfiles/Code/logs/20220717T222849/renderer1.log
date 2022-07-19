@@ -1,0 +1,70 @@
+[2022-07-17 22:28:50.503] [renderer1] [critical] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-07-17 22:28:50.530] [renderer1] [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+[2022-07-17 22:28:50.530] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.autoImportCompletions'. This property is already registered.
+[2022-07-17 22:28:50.530] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.autoSearchPaths'. This property is already registered.
+[2022-07-17 22:28:50.530] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.stubPath'. This property is already registered.
+[2022-07-17 22:28:50.530] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.diagnosticMode'. This property is already registered.
+[2022-07-17 22:28:50.531] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.extraPaths'. This property is already registered.
+[2022-07-17 22:28:50.531] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.useLibraryCodeForTypes'. This property is already registered.
+[2022-07-17 22:28:50.531] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.typeCheckingMode'. This property is already registered.
+[2022-07-17 22:28:50.531] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.diagnosticSeverityOverrides'. This property is already registered.
+[2022-07-17 22:28:50.531] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.logLevel'. This property is already registered.
+[2022-07-17 22:28:50.531] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.typeshedPaths'. This property is already registered.
+[2022-07-17 22:28:51.203] [renderer1] [error] [Extension Host] (node:294149) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-07-17 22:29:30.097] [renderer1] [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
+[2022-07-17 22:29:37.839] [renderer1] [critical] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-07-17 22:29:37.861] [renderer1] [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+[2022-07-17 22:29:39.337] [renderer1] [error] [Extension Host] (node:295171) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-07-17 22:30:15.927] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.autoImportCompletions'. This property is already registered.
+[2022-07-17 22:30:15.927] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.autoSearchPaths'. This property is already registered.
+[2022-07-17 22:30:15.927] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.stubPath'. This property is already registered.
+[2022-07-17 22:30:15.927] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.diagnosticMode'. This property is already registered.
+[2022-07-17 22:30:15.927] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.extraPaths'. This property is already registered.
+[2022-07-17 22:30:15.927] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.useLibraryCodeForTypes'. This property is already registered.
+[2022-07-17 22:30:15.927] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.typeCheckingMode'. This property is already registered.
+[2022-07-17 22:30:15.928] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.diagnosticSeverityOverrides'. This property is already registered.
+[2022-07-17 22:30:15.928] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.logLevel'. This property is already registered.
+[2022-07-17 22:30:15.928] [renderer1] [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.typeshedPaths'. This property is already registered.
+[2022-07-17 22:40:24.052] [renderer1] [error] write after end: Error: write after end
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125318
+    at new Promise (<anonymous>)
+    at u.write (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125236)
+    at m.doWrite (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114843)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114738
+[2022-07-17 22:41:04.838] [renderer1] [error] write after end: Error: write after end
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125318
+    at new Promise (<anonymous>)
+    at u.write (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125236)
+    at m.doWrite (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114843)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114738
+[2022-07-17 22:45:18.705] [renderer1] [error] command 'pyright.createtypestub' already exists: Error: command 'pyright.createtypestub' already exists
+    at o.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:61206)
+    at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:30919)
+    at t.ExecuteCommandFeature.register (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2225337)
+    at t.ExecuteCommandFeature.initialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2224916)
+    at S.initializeFeatures (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2176830)
+    at S.doInitialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2164379)
+    at S.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2161394)
+    at h.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:35572)
+[2022-07-17 22:45:47.317] [renderer1] [critical] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-07-17 22:45:48.319] [renderer1] [error] [Extension Host] (node:302678) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-07-17 22:55:56.688] [renderer1] [error] write after end: Error: write after end
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125318
+    at new Promise (<anonymous>)
+    at u.write (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:125236)
+    at m.doWrite (/home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114843)
+    at /home/bot/.vscode/extensions/ms-python.pylint-2022.2.0/dist/extension.js:1:114738
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)

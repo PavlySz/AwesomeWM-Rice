@@ -1,0 +1,43 @@
+[2022-07-19T05:04:55.978Z] Log level: Info
+[2022-07-19T05:04:55.978Z] [info] Validating found git in: git
+[2022-07-19T05:04:56.026Z] [info] Using git 2.37.1 from git
+[2022-07-19T05:04:56.055Z] > git rev-parse --show-toplevel [22ms]
+[2022-07-19T05:04:56.074Z] > git rev-parse --git-dir --git-common-dir [12ms]
+[2022-07-19T05:04:56.077Z] [info] Open repository: /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting
+[2022-07-19T05:04:56.108Z] > git status -z -uall [19ms]
+[2022-07-19T05:04:56.116Z] > git symbolic-ref --short HEAD [2ms]
+[2022-07-19T05:04:56.146Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/psalah refs/remotes/psalah [23ms]
+[2022-07-19T05:04:56.189Z] > git remote --verbose [32ms]
+[2022-07-19T05:04:56.192Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+[2022-07-19T05:04:56.204Z] > git config --get commit.template [5ms]
+[2022-07-19T05:04:56.215Z] > git status -z -uall [4ms]
+[2022-07-19T05:04:56.309Z] > git symbolic-ref --short HEAD [88ms]
+[2022-07-19T05:04:56.317Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/psalah refs/remotes/psalah [1ms]
+[2022-07-19T05:04:56.329Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-07-19T05:04:56.330Z] > git remote --verbose [2ms]
+[2022-07-19T05:04:56.349Z] > git config --get commit.template [13ms]
+[2022-07-19T05:04:56.625Z] > git check-ignore -v -z --stdin [1ms]
+[2022-07-19T05:04:56.675Z] > git show --textconv :app/etl/ps_etl.py [9ms]
+[2022-07-19T05:04:56.675Z] > git ls-files --stage -- /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py [2ms]
+[2022-07-19T05:04:56.684Z] > git cat-file -s 1c2cfaf6f540afc400b15a700d0b8902f258c098 [1ms]
+[2022-07-19T05:04:57.135Z] > git fetch [1051ms]
+[2022-07-19T05:04:57.135Z] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Unauthorized
+fatal: Authentication failed for 'https://git.fl3xx.com/FL3XX/BRIGHT-reporting.git/'
+[2022-07-19T05:04:57.277Z] > git ls-files --stage -- /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py [3ms]
+[2022-07-19T05:04:57.285Z] > git cat-file -s 1c2cfaf6f540afc400b15a700d0b8902f258c098 [2ms]
+[2022-07-19T05:04:57.308Z] > git show --textconv :app/etl/ps_etl.py [11ms]
+[2022-07-19T05:05:01.103Z] > git status -z -uall [1ms]
+[2022-07-19T05:05:01.111Z] > git symbolic-ref --short HEAD [1ms]
+[2022-07-19T05:05:01.119Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/psalah refs/remotes/psalah [0ms]
+[2022-07-19T05:05:01.133Z] > git remote --verbose [0ms]
+[2022-07-19T05:05:01.133Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-07-19T05:05:01.141Z] > git config --get commit.template [0ms]
+[2022-07-19T05:05:01.204Z] > git ls-files --stage -- /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py [0ms]
+[2022-07-19T05:05:01.212Z] > git cat-file -s 1c2cfaf6f540afc400b15a700d0b8902f258c098 [1ms]
+[2022-07-19T05:05:01.224Z] > git show --textconv :app/etl/ps_etl.py [3ms]
+[2022-07-19T05:05:01.314Z] > git show --textconv HEAD:app/etl/ps_etl.py [8ms]
+[2022-07-19T05:05:01.315Z] > git ls-tree -l HEAD -- /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py [2ms]

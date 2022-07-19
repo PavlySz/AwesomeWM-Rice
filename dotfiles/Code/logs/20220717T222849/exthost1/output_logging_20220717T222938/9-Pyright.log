@@ -1,0 +1,231 @@
+[Info  - 10:29:39 PM] Pyright language server 1.1.261 starting
+[Info  - 10:29:39 PM] Server root directory: /home/bot/.vscode/extensions/ms-pyright.pyright-1.1.261/dist
+[Info  - 10:29:40 PM] Background analysis(1) root directory: /home/bot/.vscode/extensions/ms-pyright.pyright-1.1.261/dist
+[Info  - 10:29:40 PM] Background analysis(1) started
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:29:40 PM] No configuration file found.
+[Info  - 10:29:40 PM] No pyproject.toml file found.
+[Info  - 10:29:40 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:29:40 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:29:40 PM] Assuming Python version 3.10
+[Info  - 10:29:40 PM] Assuming Python platform Linux
+[Info  - 10:29:40 PM] Searching for source files
+[Info  - 10:29:40 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:29:55 PM] No configuration file found.
+[Info  - 10:29:55 PM] No pyproject.toml file found.
+[Info  - 10:29:55 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:29:55 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:29:55 PM] Assuming Python version 3.10
+[Info  - 10:29:55 PM] Assuming Python platform Linux
+[Info  - 10:29:55 PM] Searching for source files
+[Info  - 10:29:55 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:30:16 PM] No configuration file found.
+[Info  - 10:30:16 PM] No pyproject.toml file found.
+[Info  - 10:30:16 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:30:16 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:30:16 PM] Assuming Python version 3.10
+[Info  - 10:30:16 PM] Assuming Python platform Linux
+[Info  - 10:30:16 PM] Searching for source files
+[Info  - 10:30:16 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:34:19 PM] No configuration file found.
+[Info  - 10:34:19 PM] No pyproject.toml file found.
+[Info  - 10:34:19 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:34:19 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:34:19 PM] Assuming Python version 3.10
+[Info  - 10:34:19 PM] Assuming Python platform Linux
+[Info  - 10:34:19 PM] Searching for source files
+[Info  - 10:34:19 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:34:19 PM] No configuration file found.
+[Info  - 10:34:19 PM] No pyproject.toml file found.
+[Info  - 10:34:19 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:34:19 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:34:19 PM] Assuming Python version 3.10
+[Info  - 10:34:19 PM] Assuming Python platform Linux
+[Info  - 10:34:19 PM] Searching for source files
+[Info  - 10:34:19 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:34:19 PM] No configuration file found.
+[Info  - 10:34:19 PM] No pyproject.toml file found.
+[Info  - 10:34:19 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:34:19 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:34:19 PM] Assuming Python version 3.10
+[Info  - 10:34:19 PM] Assuming Python platform Linux
+[Info  - 10:34:19 PM] Searching for source files
+[Info  - 10:34:19 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:34:19 PM] No configuration file found.
+[Info  - 10:34:19 PM] No pyproject.toml file found.
+[Info  - 10:34:19 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:34:19 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:34:19 PM] Assuming Python version 3.10
+[Info  - 10:34:19 PM] Assuming Python platform Linux
+[Info  - 10:34:19 PM] Searching for source files
+[Info  - 10:34:19 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:34:19 PM] No configuration file found.
+[Info  - 10:34:19 PM] No pyproject.toml file found.
+[Info  - 10:34:19 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:34:19 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:34:19 PM] Assuming Python version 3.10
+[Info  - 10:34:19 PM] Assuming Python platform Linux
+[Info  - 10:34:19 PM] Searching for source files
+[Info  - 10:34:19 PM] Found 5 source files
+[Info  - 10:34:19 PM] Searching for source files
+[Info  - 10:34:19 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:34:31 PM] No configuration file found.
+[Info  - 10:34:31 PM] No pyproject.toml file found.
+[Info  - 10:34:31 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:34:31 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:34:31 PM] Assuming Python version 3.10
+[Info  - 10:34:31 PM] Assuming Python platform Linux
+[Info  - 10:34:31 PM] Searching for source files
+[Info  - 10:34:31 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:34:31 PM] No configuration file found.
+[Info  - 10:34:31 PM] No pyproject.toml file found.
+[Info  - 10:34:31 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:34:31 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:34:31 PM] Assuming Python version 3.10
+[Info  - 10:34:31 PM] Assuming Python platform Linux
+[Info  - 10:34:31 PM] Searching for source files
+[Info  - 10:34:31 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:35:13 PM] No configuration file found.
+[Info  - 10:35:13 PM] No pyproject.toml file found.
+[Info  - 10:35:13 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:35:13 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:35:13 PM] Assuming Python version 3.10
+[Info  - 10:35:13 PM] Assuming Python platform Linux
+[Info  - 10:35:13 PM] Searching for source files
+[Info  - 10:35:13 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:35:13 PM] No configuration file found.
+[Info  - 10:35:13 PM] No pyproject.toml file found.
+[Info  - 10:35:13 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:35:13 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:35:13 PM] Assuming Python version 3.10
+[Info  - 10:35:13 PM] Assuming Python platform Linux
+[Info  - 10:35:13 PM] Searching for source files
+[Info  - 10:35:13 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:35:26 PM] No configuration file found.
+[Info  - 10:35:26 PM] No pyproject.toml file found.
+[Info  - 10:35:26 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:35:26 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:35:26 PM] Assuming Python version 3.10
+[Info  - 10:35:26 PM] Assuming Python platform Linux
+[Info  - 10:35:26 PM] Searching for source files
+[Info  - 10:35:26 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:35:27 PM] No configuration file found.
+[Info  - 10:35:27 PM] No pyproject.toml file found.
+[Info  - 10:35:27 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:35:27 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:35:27 PM] Assuming Python version 3.10
+[Info  - 10:35:27 PM] Assuming Python platform Linux
+[Info  - 10:35:27 PM] Searching for source files
+[Info  - 10:35:27 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:35:43 PM] No configuration file found.
+[Info  - 10:35:43 PM] No pyproject.toml file found.
+[Info  - 10:35:43 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:35:43 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:35:43 PM] Assuming Python version 3.10
+[Info  - 10:35:43 PM] Assuming Python platform Linux
+[Info  - 10:35:43 PM] Searching for source files
+[Info  - 10:35:43 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:37:21 PM] No configuration file found.
+[Info  - 10:37:21 PM] No pyproject.toml file found.
+[Info  - 10:37:21 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:37:21 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:37:21 PM] Assuming Python version 3.10
+[Info  - 10:37:21 PM] Assuming Python platform Linux
+[Info  - 10:37:21 PM] Searching for source files
+[Info  - 10:37:21 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:37:27 PM] No configuration file found.
+[Info  - 10:37:27 PM] No pyproject.toml file found.
+[Info  - 10:37:27 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:37:27 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:37:27 PM] Assuming Python version 3.10
+[Info  - 10:37:27 PM] Assuming Python platform Linux
+[Info  - 10:37:27 PM] Searching for source files
+[Info  - 10:37:27 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:37:33 PM] No configuration file found.
+[Info  - 10:37:33 PM] No pyproject.toml file found.
+[Info  - 10:37:33 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:37:33 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:37:34 PM] Assuming Python version 3.10
+[Info  - 10:37:34 PM] Assuming Python platform Linux
+[Info  - 10:37:34 PM] Searching for source files
+[Info  - 10:37:34 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:37:37 PM] No configuration file found.
+[Info  - 10:37:37 PM] No pyproject.toml file found.
+[Info  - 10:37:37 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:37:37 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:37:37 PM] Assuming Python version 3.10
+[Info  - 10:37:37 PM] Assuming Python platform Linux
+[Info  - 10:37:37 PM] Searching for source files
+[Info  - 10:37:37 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:37:47 PM] No configuration file found.
+[Info  - 10:37:47 PM] No pyproject.toml file found.
+[Info  - 10:37:47 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:37:47 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:37:47 PM] Assuming Python version 3.10
+[Info  - 10:37:47 PM] Assuming Python platform Linux
+[Info  - 10:37:47 PM] Searching for source files
+[Info  - 10:37:47 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:39:40 PM] No configuration file found.
+[Info  - 10:39:40 PM] No pyproject.toml file found.
+[Info  - 10:39:40 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:39:40 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:39:40 PM] Assuming Python version 3.10
+[Info  - 10:39:40 PM] Assuming Python platform Linux
+[Info  - 10:39:40 PM] Searching for source files
+[Info  - 10:39:40 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:39:43 PM] No configuration file found.
+[Info  - 10:39:43 PM] No pyproject.toml file found.
+[Info  - 10:39:43 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:39:43 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:39:43 PM] Assuming Python version 3.10
+[Info  - 10:39:43 PM] Assuming Python platform Linux
+[Info  - 10:39:43 PM] Searching for source files
+[Info  - 10:39:43 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:42:27 PM] No configuration file found.
+[Info  - 10:42:27 PM] No pyproject.toml file found.
+[Info  - 10:42:27 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:42:27 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:42:27 PM] Assuming Python version 3.10
+[Info  - 10:42:27 PM] Assuming Python platform Linux
+[Info  - 10:42:27 PM] Searching for source files
+[Info  - 10:42:27 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:42:27 PM] No configuration file found.
+[Info  - 10:42:27 PM] No pyproject.toml file found.
+[Info  - 10:42:27 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:42:27 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:42:27 PM] Assuming Python version 3.10
+[Info  - 10:42:27 PM] Assuming Python platform Linux
+[Info  - 10:42:27 PM] Searching for source files
+[Info  - 10:42:27 PM] Found 5 source files
+Received pythonPath from Python extension: /home/bot/anaconda3/envs/bright/bin/python
+[Info  - 10:45:17 PM] No configuration file found.
+[Info  - 10:45:17 PM] No pyproject.toml file found.
+[Info  - 10:45:17 PM] Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:45:17 PM] stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:45:17 PM] Assuming Python version 3.10
+[Info  - 10:45:17 PM] Assuming Python platform Linux
+[Info  - 10:45:17 PM] Searching for source files
+[Info  - 10:45:17 PM] Found 5 source files

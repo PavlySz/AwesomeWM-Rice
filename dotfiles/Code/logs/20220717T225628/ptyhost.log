@@ -1,0 +1,8 @@
+[2022-07-17 22:56:34.273] [ptyhost] [warning] Persistent process "4": Process had no disconnect runners but was an orphan
+[2022-07-17 22:56:34.292] [ptyhost] [info] Persistent process "4": Replaying 5336 chars and 1 size events
+[2022-07-17 22:56:34.556] [ptyhost] [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+[2022-07-17 22:56:34.556] [ptyhost] [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+[2022-07-17 22:56:34.556] [ptyhost] [warning] Persistent process "3": Process had no disconnect runners but was an orphan
+[2022-07-17 22:56:34.562] [ptyhost] [info] Persistent process "1": Replaying 716 chars and 1 size events
+[2022-07-17 22:56:34.565] [ptyhost] [info] Persistent process "2": Replaying 3286 chars and 1 size events
+[2022-07-17 22:56:34.567] [ptyhost] [info] Persistent process "3": Replaying 1124 chars and 1 size events

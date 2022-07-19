@@ -1,0 +1,253 @@
+[Info  - 10:56:32 PM] (308043) Pylance language server 2022.7.30 (pyright f3e85ee2) starting
+[Info  - 10:56:32 PM] (308043) Server root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist
+Notebook support: Legacy
+[Info  - 10:56:32 PM] (308043) Background analysis(1) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist
+[Info  - 10:56:32 PM] (308043) Background analysis(1) started
+[Info  - 10:56:32 PM] (308043) No configuration file found.
+[Info  - 10:56:32 PM] (308043) No pyproject.toml file found.
+[Info  - 10:56:32 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 10:56:32 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 10:56:32 PM] (308043) Assuming Python version 3.10
+[Info  - 10:56:32 PM] (308043) Assuming Python platform Linux
+[Info  - 10:56:33 PM] (308043) Searching for source files
+[Info  - 10:56:33 PM] (308043) Found 5 source files
+[Info  - 10:56:33 PM] (308043) Indexer background runner(2) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 10:56:33 PM] (308043) Indexing(2) started
+[Info  - 10:56:34 PM] (308043) Indexer done(2). indexed 453 files
+[Error - 11:01:52 PM] (308043) Failed to get real file system casing for /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/qa/qa.py.e50db998ce103c9ecf2ccd609935f8b4.tmp: Error: ENOENT: no such file or directory, realpath '/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/qa/qa.py.e50db998ce103c9ecf2ccd609935f8b4.tmp'
+[Info  - 11:02:14 PM] (308043) No configuration file found.
+[Info  - 11:02:14 PM] (308043) No pyproject.toml file found.
+[Info  - 11:02:14 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:02:14 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:02:14 PM] (308043) Assuming Python version 3.10
+[Info  - 11:02:14 PM] (308043) Assuming Python platform Linux
+[Info  - 11:02:15 PM] (308043) Searching for source files
+[Info  - 11:02:15 PM] (308043) Found 5 source files
+[Info  - 11:02:15 PM] (308043) Indexer background runner(3) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:02:15 PM] (308043) Indexing(3) started
+[Info  - 11:02:16 PM] (308043) Indexer done(3). indexed 453 files
+[Info  - 11:02:28 PM] (308043) No configuration file found.
+[Info  - 11:02:28 PM] (308043) No pyproject.toml file found.
+[Info  - 11:02:28 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:02:28 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:02:28 PM] (308043) Assuming Python version 3.10
+[Info  - 11:02:28 PM] (308043) Assuming Python platform Linux
+[Info  - 11:02:28 PM] (308043) Searching for source files
+[Info  - 11:02:28 PM] (308043) Found 5 source files
+[Info  - 11:02:28 PM] (308043) Indexer background runner(4) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:02:28 PM] (308043) Indexing(4) started
+[Info  - 11:02:29 PM] (308043) Indexer done(4). indexed 453 files
+[Info  - 11:02:39 PM] (308043) No configuration file found.
+[Info  - 11:02:39 PM] (308043) No pyproject.toml file found.
+[Info  - 11:02:39 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:02:39 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:02:39 PM] (308043) Assuming Python version 3.10
+[Info  - 11:02:39 PM] (308043) Assuming Python platform Linux
+[Info  - 11:02:39 PM] (308043) Searching for source files
+[Info  - 11:02:39 PM] (308043) Found 5 source files
+[Info  - 11:02:39 PM] (308043) Indexer background runner(5) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:02:39 PM] (308043) Indexing(5) started
+[Info  - 11:02:40 PM] (308043) Indexer done(5). indexed 453 files
+[Info  - 11:02:42 PM] (308043) No configuration file found.
+[Info  - 11:02:42 PM] (308043) No pyproject.toml file found.
+[Info  - 11:02:42 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:02:42 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:02:42 PM] (308043) Assuming Python version 3.10
+[Info  - 11:02:42 PM] (308043) Assuming Python platform Linux
+[Info  - 11:02:42 PM] (308043) Searching for source files
+[Info  - 11:02:42 PM] (308043) Found 5 source files
+[Info  - 11:02:42 PM] (308043) Indexer background runner(6) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:02:42 PM] (308043) Indexing(6) started
+[Info  - 11:02:43 PM] (308043) Indexer done(6). indexed 453 files
+[Info  - 11:02:57 PM] (308043) No configuration file found.
+[Info  - 11:02:57 PM] (308043) No pyproject.toml file found.
+[Info  - 11:02:57 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:02:57 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:02:57 PM] (308043) Assuming Python version 3.10
+[Info  - 11:02:57 PM] (308043) Assuming Python platform Linux
+[Info  - 11:02:58 PM] (308043) Searching for source files
+[Info  - 11:02:58 PM] (308043) Found 5 source files
+[Info  - 11:02:58 PM] (308043) Indexer background runner(7) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:02:58 PM] (308043) Indexing(7) started
+[Info  - 11:02:59 PM] (308043) Indexer done(7). indexed 453 files
+[Info  - 11:03:01 PM] (308043) No configuration file found.
+[Info  - 11:03:01 PM] (308043) No pyproject.toml file found.
+[Info  - 11:03:01 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:03:01 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:03:01 PM] (308043) Assuming Python version 3.10
+[Info  - 11:03:01 PM] (308043) Assuming Python platform Linux
+[Info  - 11:03:01 PM] (308043) Searching for source files
+[Info  - 11:03:01 PM] (308043) Found 5 source files
+[Info  - 11:03:01 PM] (308043) Indexer background runner(8) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:03:01 PM] (308043) Indexing(8) started
+[Info  - 11:03:03 PM] (308043) Indexer done(8). indexed 453 files
+[Info  - 11:03:10 PM] (308043) No configuration file found.
+[Info  - 11:03:10 PM] (308043) No pyproject.toml file found.
+[Info  - 11:03:10 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:03:10 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:03:10 PM] (308043) Assuming Python version 3.10
+[Info  - 11:03:10 PM] (308043) Assuming Python platform Linux
+[Info  - 11:03:10 PM] (308043) Searching for source files
+[Info  - 11:03:10 PM] (308043) Found 5 source files
+[Info  - 11:03:10 PM] (308043) Indexer background runner(9) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:03:10 PM] (308043) Indexing(9) started
+[Info  - 11:03:11 PM] (308043) Indexer done(9). indexed 453 files
+[Info  - 11:03:13 PM] (308043) No configuration file found.
+[Info  - 11:03:13 PM] (308043) No pyproject.toml file found.
+[Info  - 11:03:13 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:03:13 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:03:13 PM] (308043) Assuming Python version 3.10
+[Info  - 11:03:13 PM] (308043) Assuming Python platform Linux
+[Info  - 11:03:13 PM] (308043) Searching for source files
+[Info  - 11:03:13 PM] (308043) Found 5 source files
+[Info  - 11:03:13 PM] (308043) Indexer background runner(10) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:03:13 PM] (308043) Indexing(10) started
+[Info  - 11:03:14 PM] (308043) No configuration file found.
+[Info  - 11:03:14 PM] (308043) No pyproject.toml file found.
+[Info  - 11:03:14 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:03:14 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:03:14 PM] (308043) Assuming Python version 3.10
+[Info  - 11:03:14 PM] (308043) Assuming Python platform Linux
+[Info  - 11:03:14 PM] (308043) Searching for source files
+[Info  - 11:03:14 PM] (308043) Found 5 source files
+[Info  - 11:03:15 PM] (308043) Indexer done(10). indexed 453 files
+[Info  - 11:03:40 PM] (308043) No configuration file found.
+[Info  - 11:03:40 PM] (308043) No pyproject.toml file found.
+[Info  - 11:03:40 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:03:40 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:03:41 PM] (308043) Assuming Python version 3.10
+[Info  - 11:03:41 PM] (308043) Assuming Python platform Linux
+[Info  - 11:03:41 PM] (308043) Searching for source files
+[Info  - 11:03:41 PM] (308043) Found 5 source files
+[Info  - 11:03:41 PM] (308043) Indexer background runner(11) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:03:41 PM] (308043) Indexing(11) started
+[Info  - 11:03:42 PM] (308043) Indexer done(11). indexed 453 files
+[Info  - 11:03:48 PM] (308043) No configuration file found.
+[Info  - 11:03:48 PM] (308043) No pyproject.toml file found.
+[Info  - 11:03:48 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:03:48 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:03:48 PM] (308043) Assuming Python version 3.10
+[Info  - 11:03:48 PM] (308043) Assuming Python platform Linux
+[Info  - 11:03:48 PM] (308043) Searching for source files
+[Info  - 11:03:48 PM] (308043) Found 5 source files
+[Info  - 11:03:49 PM] (308043) Indexer background runner(12) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:03:49 PM] (308043) Indexing(12) started
+[Info  - 11:03:50 PM] (308043) Indexer done(12). indexed 453 files
+[Info  - 11:04:14 PM] (308043) No configuration file found.
+[Info  - 11:04:14 PM] (308043) No pyproject.toml file found.
+[Info  - 11:04:14 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:04:14 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:04:14 PM] (308043) Assuming Python version 3.10
+[Info  - 11:04:14 PM] (308043) Assuming Python platform Linux
+[Info  - 11:04:14 PM] (308043) Searching for source files
+[Info  - 11:04:14 PM] (308043) Found 5 source files
+[Info  - 11:04:14 PM] (308043) Indexer background runner(13) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:04:14 PM] (308043) Indexing(13) started
+[Info  - 11:04:15 PM] (308043) Indexer done(13). indexed 453 files
+[Info  - 11:04:27 PM] (308043) No configuration file found.
+[Info  - 11:04:27 PM] (308043) No pyproject.toml file found.
+[Info  - 11:04:27 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:04:27 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:04:27 PM] (308043) Assuming Python version 3.10
+[Info  - 11:04:27 PM] (308043) Assuming Python platform Linux
+[Info  - 11:04:27 PM] (308043) Searching for source files
+[Info  - 11:04:27 PM] (308043) Found 5 source files
+[Info  - 11:04:27 PM] (308043) Indexer background runner(14) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:04:27 PM] (308043) Indexing(14) started
+[Info  - 11:04:28 PM] (308043) Indexer done(14). indexed 453 files
+[Info  - 11:04:51 PM] (308043) No configuration file found.
+[Info  - 11:04:51 PM] (308043) No pyproject.toml file found.
+[Info  - 11:04:51 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:04:51 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:04:51 PM] (308043) Assuming Python version 3.10
+[Info  - 11:04:51 PM] (308043) Assuming Python platform Linux
+[Info  - 11:04:51 PM] (308043) Searching for source files
+[Info  - 11:04:51 PM] (308043) Found 5 source files
+[Info  - 11:04:51 PM] (308043) Indexer background runner(15) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:04:51 PM] (308043) Indexing(15) started
+[Info  - 11:04:52 PM] (308043) Indexer done(15). indexed 453 files
+[Info  - 11:04:59 PM] (308043) No configuration file found.
+[Info  - 11:04:59 PM] (308043) No pyproject.toml file found.
+[Info  - 11:04:59 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:04:59 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:04:59 PM] (308043) Assuming Python version 3.10
+[Info  - 11:04:59 PM] (308043) Assuming Python platform Linux
+[Info  - 11:04:59 PM] (308043) Searching for source files
+[Info  - 11:04:59 PM] (308043) Found 5 source files
+[Info  - 11:05:00 PM] (308043) Indexer background runner(16) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:05:00 PM] (308043) Indexing(16) started
+[Info  - 11:05:00 PM] (308043) Indexer done(16). indexed 453 files
+[Info  - 11:05:03 PM] (308043) No configuration file found.
+[Info  - 11:05:03 PM] (308043) No pyproject.toml file found.
+[Info  - 11:05:03 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:05:03 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:05:03 PM] (308043) Assuming Python version 3.10
+[Info  - 11:05:03 PM] (308043) Assuming Python platform Linux
+[Info  - 11:05:03 PM] (308043) Searching for source files
+[Info  - 11:05:03 PM] (308043) Found 5 source files
+[Info  - 11:05:04 PM] (308043) Indexer background runner(17) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:05:04 PM] (308043) Indexing(17) started
+[Info  - 11:05:04 PM] (308043) Indexer done(17). indexed 453 files
+[Info  - 11:05:18 PM] (308043) No configuration file found.
+[Info  - 11:05:18 PM] (308043) No pyproject.toml file found.
+[Info  - 11:05:18 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:05:18 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:05:18 PM] (308043) Assuming Python version 3.10
+[Info  - 11:05:18 PM] (308043) Assuming Python platform Linux
+[Info  - 11:05:18 PM] (308043) Searching for source files
+[Info  - 11:05:18 PM] (308043) Found 5 source files
+[Info  - 11:05:18 PM] (308043) Indexer background runner(18) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:05:18 PM] (308043) Indexing(18) started
+[Info  - 11:05:20 PM] (308043) Indexer done(18). indexed 453 files
+[Info  - 11:09:27 PM] (308043) No configuration file found.
+[Info  - 11:09:27 PM] (308043) No pyproject.toml file found.
+[Info  - 11:09:27 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:09:27 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:09:27 PM] (308043) Assuming Python version 3.10
+[Info  - 11:09:27 PM] (308043) Assuming Python platform Linux
+[Info  - 11:09:27 PM] (308043) Searching for source files
+[Info  - 11:09:27 PM] (308043) Found 5 source files
+[Info  - 11:09:27 PM] (308043) Indexer background runner(19) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:09:27 PM] (308043) Indexing(19) started
+[Info  - 11:09:28 PM] (308043) Indexer done(19). indexed 453 files
+[Info  - 11:09:58 PM] (308043) No configuration file found.
+[Info  - 11:09:58 PM] (308043) No pyproject.toml file found.
+[Info  - 11:09:58 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:09:58 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:09:58 PM] (308043) Assuming Python version 3.10
+[Info  - 11:09:58 PM] (308043) Assuming Python platform Linux
+[Info  - 11:09:58 PM] (308043) Searching for source files
+[Info  - 11:09:58 PM] (308043) Found 5 source files
+[Info  - 11:09:58 PM] (308043) Indexer background runner(20) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:09:58 PM] (308043) Indexing(20) started
+[Info  - 11:09:59 PM] (308043) Indexer done(20). indexed 453 files
+[Info  - 11:10:18 PM] (308043) No configuration file found.
+[Info  - 11:10:18 PM] (308043) No pyproject.toml file found.
+[Info  - 11:10:18 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:10:18 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:10:18 PM] (308043) Assuming Python version 3.10
+[Info  - 11:10:18 PM] (308043) Assuming Python platform Linux
+[Info  - 11:10:18 PM] (308043) Searching for source files
+[Info  - 11:10:18 PM] (308043) Found 5 source files
+[Info  - 11:10:19 PM] (308043) Indexer background runner(21) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:10:19 PM] (308043) Indexing(21) started
+[Info  - 11:10:19 PM] (308043) Indexer done(21). indexed 453 files
+[Info  - 11:10:31 PM] (308043) No configuration file found.
+[Info  - 11:10:31 PM] (308043) No pyproject.toml file found.
+[Info  - 11:10:31 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:10:31 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:10:31 PM] (308043) Assuming Python version 3.10
+[Info  - 11:10:31 PM] (308043) Assuming Python platform Linux
+[Info  - 11:10:31 PM] (308043) Searching for source files
+[Info  - 11:10:31 PM] (308043) Found 5 source files
+[Info  - 11:10:31 PM] (308043) No configuration file found.
+[Info  - 11:10:31 PM] (308043) No pyproject.toml file found.
+[Info  - 11:10:31 PM] (308043) Setting pythonPath for service "BRIGHT-reporting": "/home/bot/anaconda3/envs/bright/bin/python"
+[Warn  - 11:10:31 PM] (308043) stubPath /home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/typings is not a valid directory.
+[Info  - 11:10:31 PM] (308043) Assuming Python version 3.10
+[Info  - 11:10:31 PM] (308043) Assuming Python platform Linux
+[Info  - 11:10:31 PM] (308043) Searching for source files
+[Info  - 11:10:31 PM] (308043) Found 5 source files
+[Info  - 11:10:31 PM] (308043) Indexer background runner(22) root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist (index)
+[Info  - 11:10:31 PM] (308043) Indexing(22) started
+[Info  - 11:10:32 PM] (308043) Indexer done(22). indexed 453 files

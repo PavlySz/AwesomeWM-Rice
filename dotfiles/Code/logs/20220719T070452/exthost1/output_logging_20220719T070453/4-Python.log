@@ -1,0 +1,49 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+LSP Notebooks experiment is enabled
+> conda info --json
+Python interpreter path: ~/anaconda3/envs/bright/bin/python
+> ~/.conda/bin/conda info --json
+> ~/anaconda3/bin/conda info --json
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/bright/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/tf2/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --include-naming-hint=yes ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "error",
+        "module": "app.etl.ps_etl",
+        "obj": "",
+        "line": 32,
+        "column": 0,
+        "endLine": 32,
+        "endColumn": 68,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'helpers.helpers'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "app.etl.ps_etl",
+        "obj": "",
+        "line": 33,
+        "column": 0,
+        "endLine": 33,
+        "endColumn": 53,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'helpers.read_config'",
+        "message-id": "E0401"
+    }
+]

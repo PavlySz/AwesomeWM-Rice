@@ -1,0 +1,49 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "29"
+WARNING:pygls.protocol:Cancel notification for unknown message id "94"
+WARNING:pygls.protocol:Cancel notification for unknown message id "112"
+[Error - 10:45:17 PM] Sending notification workspace/didChangeConfiguration failed
+  Message: Client is not running
+  Code: -32096 
+[Info  - 10:45:17 PM] (302507) Pylance language server 2022.7.30 (pyright f3e85ee2) starting
+[Info  - 10:45:17 PM] (302507) Server root directory: /home/bot/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist
+Notebook support: Legacy
+[Error - 10:45:17 PM] Server initialization failed.
+Error: command 'pyright.createtypestub' already exists
+    at o.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:61206)
+    at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:30919)
+    at t.ExecuteCommandFeature.register (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2225337)
+    at t.ExecuteCommandFeature.initialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2224916)
+    at S.initializeFeatures (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2176830)
+    at S.doInitialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2164379)
+    at S.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2161394)
+    at h.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:35572)
+[Error - 10:45:17 PM] Pylance client: couldn't create connection to server.
+Error: command 'pyright.createtypestub' already exists
+    at o.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:61206)
+    at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:30919)
+    at t.ExecuteCommandFeature.register (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2225337)
+    at t.ExecuteCommandFeature.initialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2224916)
+    at S.initializeFeatures (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2176830)
+    at S.doInitialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2164379)
+    at S.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2161394)
+    at h.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:35572)
+[Error - 10:45:17 PM] Sending notification textDocument/didOpen failed.
+Error: command 'pyright.createtypestub' already exists
+    at o.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:61206)
+    at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:30919)
+    at t.ExecuteCommandFeature.register (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2225337)
+    at t.ExecuteCommandFeature.initialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2224916)
+    at S.initializeFeatures (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2176830)
+    at S.doInitialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2164379)
+    at S.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2161394)
+    at h.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:35572)
+[Error - 10:45:17 PM] Sending document notification textDocument/didOpen failed
+Error: command 'pyright.createtypestub' already exists
+    at o.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:61206)
+    at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:30919)
+    at t.ExecuteCommandFeature.register (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2225337)
+    at t.ExecuteCommandFeature.initialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2224916)
+    at S.initializeFeatures (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2176830)
+    at S.doInitialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2164379)
+    at S.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2161394)
+    at h.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:35572)

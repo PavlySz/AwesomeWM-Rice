@@ -1,0 +1,12 @@
+Language server is set to Pylance.
+Acquiring model
+Acquiring model 'intellisense-members-lstm-pylance' for python
+Querying IntelliCode service for available models.
+vs-intellicode-python was passed a model: {}.
+Cached model is up to date.
+Activating Python extension
+Acquiring model 'intellisense-members' for sql
+Querying IntelliCode service for available models.
+Cached model is up to date.
+vs-intellicode-SQL was passed a model: {"modelId":"99136CA159AB897D942412E976015B8C9EC2","modelPath":"/home/bot/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.22/cache/99136CA159AB897D942412E976015B8C9EC2_6D6727BA7E6347BE9124EF572943AC5C","outputId":"6D6727BA7E6347BE9124EF572943AC5C"}.
+Loaded language server extension.

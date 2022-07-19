@@ -1,0 +1,33 @@
+[2022-07-18 08:53:14.872] [main] [info] update#setState idle
+[2022-07-18 08:53:15.802] [main] [info] Starting extension host with pid 12478 (fork() took 90 ms).
+[2022-07-18 08:53:44.872] [main] [info] update#setState checking for updates
+[2022-07-18 08:53:45.014] [main] [info] update#setState idle
+[2022-07-18 09:53:44.894] [main] [info] update#setState checking for updates
+[2022-07-18 09:53:45.594] [main] [info] update#setState idle
+[2022-07-18 10:53:45.001] [main] [info] update#setState checking for updates
+[2022-07-18 10:53:45.649] [main] [info] update#setState idle
+[2022-07-18 11:53:45.028] [main] [info] update#setState checking for updates
+[2022-07-18 11:53:45.911] [main] [info] update#setState idle
+[2022-07-18 12:53:45.035] [main] [info] update#setState checking for updates
+[2022-07-18 12:53:45.681] [main] [info] update#setState idle
+[2022-07-18 13:53:45.129] [main] [info] update#setState checking for updates
+[2022-07-18 13:53:45.794] [main] [info] update#setState idle
+[2022-07-18 14:53:45.228] [main] [info] update#setState checking for updates
+[2022-07-18 14:53:46.119] [main] [info] update#setState idle
+[2022-07-18 15:53:45.309] [main] [info] update#setState checking for updates
+[2022-07-18 15:53:45.939] [main] [info] update#setState idle
+[2022-07-18 16:53:45.379] [main] [info] update#setState checking for updates
+[2022-07-18 16:53:46.149] [main] [info] update#setState idle
+[2022-07-18 17:53:45.433] [main] [info] update#setState checking for updates
+[2022-07-18 17:53:46.021] [main] [info] update#setState idle
+[2022-07-18 18:53:45.528] [main] [info] update#setState checking for updates
+[2022-07-18 18:53:46.312] [main] [info] update#setState idle
+[2022-07-18 19:53:45.628] [main] [info] update#setState checking for updates
+[2022-07-18 19:53:46.537] [main] [info] update#setState idle
+[2022-07-18 20:53:45.673] [main] [info] update#setState checking for updates
+[2022-07-18 20:53:46.274] [main] [info] update#setState idle
+[2022-07-18 21:53:45.768] [main] [info] update#setState checking for updates
+[2022-07-18 21:53:48.308] [main] [info] update#setState idle
+[2022-07-18 22:53:45.868] [main] [info] update#setState checking for updates
+[2022-07-18 22:53:46.912] [main] [info] update#setState available for download
+[2022-07-18 23:13:34.978] [main] [info] Extension host with pid 12478 exited with code: 0, signal: null.

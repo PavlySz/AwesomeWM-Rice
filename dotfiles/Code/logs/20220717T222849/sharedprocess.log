@@ -1,0 +1,8 @@
+[2022-07-17 22:28:51.125] [sharedprocess] [info] Starting worker process with pid 294209 (type: fileWatcher, window: 1).
+[2022-07-17 22:29:37.179] [sharedprocess] [info] Worker process with pid 294209 terminated normally (type: fileWatcher, window: 1).
+[2022-07-17 22:29:37.824] [sharedprocess] [info] Starting worker process with pid 295172 (type: fileWatcher, window: 1).
+[2022-07-17 22:45:44.459] [sharedprocess] [info] Uninstalling extension: ms-pyright.pyright@1.1.261
+[2022-07-17 22:45:44.590] [sharedprocess] [info] Detected extension removed from another source ms-pyright.pyright
+[2022-07-17 22:45:45.043] [sharedprocess] [info] Successfully uninstalled extension: ms-pyright.pyright@1.1.261
+[2022-07-17 22:45:46.525] [sharedprocess] [info] Worker process with pid 295172 terminated normally (type: fileWatcher, window: 1).
+[2022-07-17 22:45:47.216] [sharedprocess] [info] Starting worker process with pid 302680 (type: fileWatcher, window: 1).

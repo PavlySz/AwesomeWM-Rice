@@ -1,0 +1,3067 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+LSP Notebooks experiment is disabled -- not in treatment group
+> conda info --json
+Python interpreter path: ~/anaconda3/envs/bright/bin/python
+> ~/.conda/bin/conda info --json
+> ~/anaconda3/bin/conda info --json
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/bright/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/tf2/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+139,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+151,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "read_config",
+        "obj": "",
+        "line": 3,
+        "column": 1,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/read_config.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ~/anaconda3/envs/bright/lib/python3.10/argparse.py
+cwd: ~/anaconda3/envs/bright/lib/python3.10
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "argparse.py",
+        "symbol": "too-many-lines",
+        "message": "Too many lines in module (2577/1000)",
+        "message-id": "C0302"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_AttributeHolder",
+        "line": 107,
+        "column": 0,
+        "endLine": 107,
+        "endColumn": 22,
+        "path": "argparse.py",
+        "symbol": "useless-object-inheritance",
+        "message": "Class '_AttributeHolder' inherits from object, can be safely removed from bases in python3",
+        "message-id": "R0205"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_AttributeHolder.__repr__",
+        "line": 124,
+        "column": 35,
+        "endLine": 124,
+        "endColumn": 42,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_AttributeHolder.__repr__",
+        "line": 128,
+        "column": 31,
+        "endLine": 128,
+        "endColumn": 37,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_AttributeHolder.__repr__",
+        "line": 129,
+        "column": 15,
+        "endLine": 129,
+        "endColumn": 23,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_AttributeHolder",
+        "line": 107,
+        "column": 0,
+        "endLine": 107,
+        "endColumn": 22,
+        "path": "argparse.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (1/2)",
+        "message-id": "R0903"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_copy_items",
+        "line": 144,
+        "column": 7,
+        "endLine": 144,
+        "endColumn": 26,
+        "path": "argparse.py",
+        "symbol": "unidiomatic-typecheck",
+        "message": "Use isinstance() rather than type() for a typecheck.",
+        "message-id": "C0123"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_copy_items",
+        "line": 146,
+        "column": 4,
+        "endLine": 146,
+        "endColumn": 15,
+        "path": "argparse.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (copy)",
+        "message-id": "C0415"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter",
+        "line": 154,
+        "column": 0,
+        "endLine": 154,
+        "endColumn": 19,
+        "path": "argparse.py",
+        "symbol": "useless-object-inheritance",
+        "message": "Class 'HelpFormatter' inherits from object, can be safely removed from bases in python3",
+        "message-id": "R0205"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter",
+        "line": 154,
+        "column": 0,
+        "endLine": 154,
+        "endColumn": 19,
+        "path": "argparse.py",
+        "symbol": "too-many-instance-attributes",
+        "message": "Too many instance attributes (11/7)",
+        "message-id": "R0902"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter.__init__",
+        "line": 169,
+        "column": 12,
+        "endLine": 169,
+        "endColumn": 25,
+        "path": "argparse.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (shutil)",
+        "message-id": "C0415"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._Section",
+        "line": 201,
+        "column": 4,
+        "endLine": 201,
+        "endColumn": 18,
+        "path": "argparse.py",
+        "symbol": "useless-object-inheritance",
+        "message": "Class '_Section' inherits from object, can be safely removed from bases in python3",
+        "message-id": "R0205"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._Section.format_help",
+        "line": 209,
+        "column": 8,
+        "endLine": 209,
+        "endColumn": 23,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._Section.format_help",
+        "line": 212,
+        "column": 16,
+        "endLine": 212,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _indent of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._Section.format_help",
+        "line": 213,
+        "column": 19,
+        "endLine": 213,
+        "endColumn": 45,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _join_parts of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._Section.format_help",
+        "line": 216,
+        "column": 16,
+        "endLine": 216,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _dedent of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._Section.format_help",
+        "line": 224,
+        "column": 33,
+        "endLine": 224,
+        "endColumn": 63,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _current_indent of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._Section.format_help",
+        "line": 225,
+        "column": 26,
+        "endLine": 225,
+        "endColumn": 36,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._Section",
+        "line": 201,
+        "column": 4,
+        "endLine": 201,
+        "endColumn": 18,
+        "path": "argparse.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (1/2)",
+        "message-id": "R0903"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter.start_section",
+        "line": 238,
+        "column": 4,
+        "endLine": 238,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter.end_section",
+        "line": 244,
+        "column": 4,
+        "endLine": 244,
+        "endColumn": 19,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter.add_text",
+        "line": 248,
+        "column": 4,
+        "endLine": 248,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter.add_usage",
+        "line": 252,
+        "column": 4,
+        "endLine": 252,
+        "endColumn": 17,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter.add_argument",
+        "line": 257,
+        "column": 4,
+        "endLine": 257,
+        "endColumn": 20,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter.add_arguments",
+        "line": 275,
+        "column": 4,
+        "endLine": 275,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter.format_help",
+        "line": 282,
+        "column": 4,
+        "endLine": 282,
+        "endColumn": 19,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter.format_help",
+        "line": 283,
+        "column": 8,
+        "endLine": 283,
+        "endColumn": 12,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_usage",
+        "line": 294,
+        "column": 4,
+        "endLine": 294,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (21/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_usage",
+        "line": 320,
+        "column": 12,
+        "endLine": 320,
+        "endColumn": 18,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'format'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_usage",
+        "line": 304,
+        "column": 20,
+        "endLine": 304,
+        "endColumn": 30,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_usage",
+        "line": 308,
+        "column": 19,
+        "endLine": 308,
+        "endColumn": 29,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_usage",
+        "line": 388,
+        "column": 15,
+        "endLine": 388,
+        "endColumn": 25,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_usage",
+        "line": 294,
+        "column": 4,
+        "endLine": 294,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (14/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_usage",
+        "line": 294,
+        "column": 4,
+        "endLine": 294,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (62/50)",
+        "message-id": "R0915"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 390,
+        "column": 4,
+        "endLine": 390,
+        "endColumn": 29,
+        "path": "argparse.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (18/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 482,
+        "column": 8,
+        "endLine": 482,
+        "endColumn": 12,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'open'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 396,
+        "column": 38,
+        "endLine": 396,
+        "endColumn": 58,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 400,
+        "column": 34,
+        "endLine": 400,
+        "endColumn": 54,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 401,
+        "column": 41,
+        "endLine": 401,
+        "endColumn": 61,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 402,
+        "column": 34,
+        "endLine": 402,
+        "endColumn": 54,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 465,
+        "column": 27,
+        "endLine": 465,
+        "endColumn": 34,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 469,
+        "column": 27,
+        "endLine": 469,
+        "endColumn": 33,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 484,
+        "column": 23,
+        "endLine": 484,
+        "endColumn": 31,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 485,
+        "column": 23,
+        "endLine": 485,
+        "endColumn": 31,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 486,
+        "column": 23,
+        "endLine": 486,
+        "endColumn": 32,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 390,
+        "column": 4,
+        "endLine": 390,
+        "endColumn": 29,
+        "path": "argparse.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (28/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_actions_usage",
+        "line": 390,
+        "column": 4,
+        "endLine": 390,
+        "endColumn": 29,
+        "path": "argparse.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (64/50)",
+        "message-id": "R0915"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_action",
+        "line": 511,
+        "column": 28,
+        "endLine": 511,
+        "endColumn": 37,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_action",
+        "line": 516,
+        "column": 28,
+        "endLine": 516,
+        "endColumn": 39,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_action",
+        "line": 522,
+        "column": 28,
+        "endLine": 522,
+        "endColumn": 37,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_action",
+        "line": 532,
+        "column": 25,
+        "endLine": 532,
+        "endColumn": 34,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_action",
+        "line": 534,
+        "column": 29,
+        "endLine": 534,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_action_invocation",
+        "line": 548,
+        "column": 8,
+        "endLine": 569,
+        "endColumn": 35,
+        "path": "argparse.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_action_invocation",
+        "line": 567,
+        "column": 33,
+        "endLine": 567,
+        "endColumn": 40,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._metavar_formatter.format",
+        "line": 580,
+        "column": 8,
+        "endLine": 580,
+        "endColumn": 18,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'format'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._metavar_formatter",
+        "line": 576,
+        "column": 21,
+        "endLine": 576,
+        "endColumn": 27,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "HelpFormatter._metavar_formatter.format",
+        "line": 581,
+        "column": 12,
+        "endLine": 584,
+        "endColumn": 46,
+        "path": "argparse.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_args",
+        "line": 590,
+        "column": 21,
+        "endLine": 590,
+        "endColumn": 25,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_args",
+        "line": 592,
+        "column": 21,
+        "endLine": 592,
+        "endColumn": 27,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_args",
+        "line": 596,
+        "column": 25,
+        "endLine": 596,
+        "endColumn": 40,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_args",
+        "line": 598,
+        "column": 25,
+        "endLine": 598,
+        "endColumn": 35,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_args",
+        "line": 600,
+        "column": 21,
+        "endLine": 600,
+        "endColumn": 34,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._format_args",
+        "line": 604,
+        "column": 21,
+        "endLine": 604,
+        "endColumn": 29,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "HelpFormatter._iter_indented_subactions",
+        "line": 630,
+        "column": 29,
+        "endLine": 630,
+        "endColumn": 51,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _get_subactions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._split_lines",
+        "line": 642,
+        "column": 8,
+        "endLine": 642,
+        "endColumn": 23,
+        "path": "argparse.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (textwrap)",
+        "message-id": "C0415"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "HelpFormatter._fill_text",
+        "line": 647,
+        "column": 8,
+        "endLine": 647,
+        "endColumn": 23,
+        "path": "argparse.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (textwrap)",
+        "message-id": "C0415"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentDefaultsHelpFormatter._get_help_string",
+        "line": 692,
+        "column": 8,
+        "endLine": 692,
+        "endColumn": 12,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_get_action_name",
+        "line": 722,
+        "column": 4,
+        "endLine": 733,
+        "endColumn": 19,
+        "path": "argparse.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1705"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentError.__init__",
+        "line": 743,
+        "column": 4,
+        "endLine": 743,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "super-init-not-called",
+        "message": "__init__ method from base class 'Exception' is not called",
+        "message-id": "W0231"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentError.__str__",
+        "line": 749,
+        "column": 12,
+        "endLine": 749,
+        "endColumn": 18,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'format'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentTypeError",
+        "line": 758,
+        "column": 4,
+        "endLine": 758,
+        "endColumn": 8,
+        "path": "argparse.py",
+        "symbol": "unnecessary-pass",
+        "message": "Unnecessary pass statement",
+        "message-id": "W0107"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "Action",
+        "line": 765,
+        "column": 0,
+        "endLine": 765,
+        "endColumn": 12,
+        "path": "argparse.py",
+        "symbol": "too-many-instance-attributes",
+        "message": "Too many instance attributes (10/7)",
+        "message-id": "R0902"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "Action.__init__",
+        "line": 816,
+        "column": 4,
+        "endLine": 816,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (11/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "Action.__init__",
+        "line": 822,
+        "column": 17,
+        "endLine": 822,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'type'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "Action.__init__",
+        "line": 825,
+        "column": 17,
+        "endLine": 825,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "Action.format_usage",
+        "line": 852,
+        "column": 4,
+        "endLine": 852,
+        "endColumn": 20,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "BooleanOptionalAction",
+        "line": 858,
+        "column": 0,
+        "endLine": 858,
+        "endColumn": 27,
+        "path": "argparse.py",
+        "symbol": "missing-class-docstring",
+        "message": "Missing class docstring",
+        "message-id": "C0115"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "BooleanOptionalAction.__init__",
+        "line": 859,
+        "column": 4,
+        "endLine": 859,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (9/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "BooleanOptionalAction.__init__",
+        "line": 863,
+        "column": 17,
+        "endLine": 863,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'type'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "BooleanOptionalAction.__init__",
+        "line": 866,
+        "column": 17,
+        "endLine": 866,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreAction.__init__",
+        "line": 901,
+        "column": 4,
+        "endLine": 901,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (11/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_StoreAction.__init__",
+        "line": 907,
+        "column": 17,
+        "endLine": 907,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'type'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_StoreAction.__init__",
+        "line": 910,
+        "column": 17,
+        "endLine": 910,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_StoreAction.__init__",
+        "line": 917,
+        "column": 29,
+        "endLine": 917,
+        "endColumn": 63,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreAction.__init__",
+        "line": 918,
+        "column": 8,
+        "endLine": 918,
+        "endColumn": 33,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreConstAction.__init__",
+        "line": 936,
+        "column": 4,
+        "endLine": 936,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (8/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_StoreConstAction.__init__",
+        "line": 942,
+        "column": 17,
+        "endLine": 942,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreConstAction.__init__",
+        "line": 944,
+        "column": 8,
+        "endLine": 944,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreTrueAction.__init__",
+        "line": 959,
+        "column": 4,
+        "endLine": 959,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (6/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_StoreTrueAction.__init__",
+        "line": 964,
+        "column": 17,
+        "endLine": 964,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreTrueAction.__init__",
+        "line": 965,
+        "column": 8,
+        "endLine": 965,
+        "endColumn": 37,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreTrueAction",
+        "line": 957,
+        "column": 0,
+        "endLine": 957,
+        "endColumn": 22,
+        "path": "argparse.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (1/2)",
+        "message-id": "R0903"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreFalseAction.__init__",
+        "line": 976,
+        "column": 4,
+        "endLine": 976,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (6/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_StoreFalseAction.__init__",
+        "line": 981,
+        "column": 17,
+        "endLine": 981,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreFalseAction.__init__",
+        "line": 982,
+        "column": 8,
+        "endLine": 982,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_StoreFalseAction",
+        "line": 974,
+        "column": 0,
+        "endLine": 974,
+        "endColumn": 23,
+        "path": "argparse.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (1/2)",
+        "message-id": "R0903"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_AppendAction.__init__",
+        "line": 993,
+        "column": 4,
+        "endLine": 993,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (11/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_AppendAction.__init__",
+        "line": 999,
+        "column": 17,
+        "endLine": 999,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'type'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_AppendAction.__init__",
+        "line": 1002,
+        "column": 17,
+        "endLine": 1002,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_AppendAction.__init__",
+        "line": 1009,
+        "column": 29,
+        "endLine": 1009,
+        "endColumn": 63,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_AppendAction.__init__",
+        "line": 1010,
+        "column": 8,
+        "endLine": 1010,
+        "endColumn": 34,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_AppendConstAction.__init__",
+        "line": 1031,
+        "column": 4,
+        "endLine": 1031,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (8/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_AppendConstAction.__init__",
+        "line": 1037,
+        "column": 17,
+        "endLine": 1037,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_AppendConstAction.__init__",
+        "line": 1039,
+        "column": 8,
+        "endLine": 1039,
+        "endColumn": 39,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_CountAction.__init__",
+        "line": 1058,
+        "column": 4,
+        "endLine": 1058,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (6/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_CountAction.__init__",
+        "line": 1063,
+        "column": 17,
+        "endLine": 1063,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_CountAction.__init__",
+        "line": 1064,
+        "column": 8,
+        "endLine": 1064,
+        "endColumn": 33,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_HelpAction.__init__",
+        "line": 1085,
+        "column": 17,
+        "endLine": 1085,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_HelpAction.__init__",
+        "line": 1086,
+        "column": 8,
+        "endLine": 1086,
+        "endColumn": 32,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_VersionAction.__init__",
+        "line": 1100,
+        "column": 4,
+        "endLine": 1100,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (6/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_VersionAction.__init__",
+        "line": 1105,
+        "column": 17,
+        "endLine": 1105,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_VersionAction.__init__",
+        "line": 1106,
+        "column": 8,
+        "endLine": 1106,
+        "endColumn": 35,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_SubParsersAction._ChoicesPseudoAction",
+        "line": 1126,
+        "column": 4,
+        "endLine": 1126,
+        "endColumn": 30,
+        "path": "argparse.py",
+        "symbol": "abstract-method",
+        "message": "Method '__call__' is abstract in class 'Action' but is not overridden",
+        "message-id": "W0223"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_SubParsersAction._ChoicesPseudoAction.__init__",
+        "line": 1128,
+        "column": 42,
+        "endLine": 1128,
+        "endColumn": 46,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_SubParsersAction._ChoicesPseudoAction.__init__",
+        "line": 1131,
+        "column": 27,
+        "endLine": 1131,
+        "endColumn": 34,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_SubParsersAction._ChoicesPseudoAction",
+        "line": 1126,
+        "column": 4,
+        "endLine": 1126,
+        "endColumn": 30,
+        "path": "argparse.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (1/2)",
+        "message-id": "R0903"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_SubParsersAction.__init__",
+        "line": 1136,
+        "column": 4,
+        "endLine": 1136,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (8/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_SubParsersAction.__init__",
+        "line": 1142,
+        "column": 17,
+        "endLine": 1142,
+        "endColumn": 21,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_SubParsersAction.__init__",
+        "line": 1150,
+        "column": 8,
+        "endLine": 1150,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_SubParsersAction.add_parser",
+        "line": 1159,
+        "column": 4,
+        "endLine": 1159,
+        "endColumn": 18,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_SubParsersAction.add_parser",
+        "line": 1168,
+        "column": 12,
+        "endLine": 1168,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'help'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_SubParsersAction.add_parser",
+        "line": 1162,
+        "column": 29,
+        "endLine": 1162,
+        "endColumn": 36,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_SubParsersAction.__call__",
+        "line": 1200,
+        "column": 12,
+        "endLine": 1200,
+        "endColumn": 42,
+        "path": "argparse.py",
+        "symbol": "raise-missing-from",
+        "message": "Consider explicitly re-raising using 'except KeyError as exc' and 'raise ArgumentError(self, msg) from exc'",
+        "message-id": "W0707"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "FileType",
+        "line": 1228,
+        "column": 0,
+        "endLine": 1228,
+        "endColumn": 14,
+        "path": "argparse.py",
+        "symbol": "useless-object-inheritance",
+        "message": "Class 'FileType' inherits from object, can be safely removed from bases in python3",
+        "message-id": "R0205"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "FileType.__call__",
+        "line": 1254,
+        "column": 12,
+        "endLine": 1260,
+        "endColumn": 37,
+        "path": "argparse.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1705"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "FileType.__call__",
+        "line": 1266,
+        "column": 8,
+        "endLine": 1269,
+        "endColumn": 51,
+        "path": "argparse.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"e\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "FileType.__call__",
+        "line": 1269,
+        "column": 12,
+        "endLine": 1269,
+        "endColumn": 51,
+        "path": "argparse.py",
+        "symbol": "raise-missing-from",
+        "message": "Consider explicitly re-raising using 'raise ArgumentTypeError(message % args) from e'",
+        "message-id": "W0707"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "FileType.__repr__",
+        "line": 1275,
+        "column": 30,
+        "endLine": 1275,
+        "endColumn": 37,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "FileType.__repr__",
+        "line": 1277,
+        "column": 15,
+        "endLine": 1277,
+        "endColumn": 23,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "Namespace.__init__",
+        "line": 1291,
+        "column": 8,
+        "endLine": 1292,
+        "endColumn": 45,
+        "path": "argparse.py",
+        "symbol": "consider-using-dict-items",
+        "message": "Consider iterating with .items()",
+        "message-id": "C0206"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_ActionsContainer",
+        "line": 1303,
+        "column": 0,
+        "endLine": 1303,
+        "endColumn": 23,
+        "path": "argparse.py",
+        "symbol": "useless-object-inheritance",
+        "message": "Class '_ActionsContainer' inherits from object, can be safely removed from bases in python3",
+        "message-id": "R0205"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_ActionsContainer",
+        "line": 1303,
+        "column": 0,
+        "endLine": 1303,
+        "endColumn": 23,
+        "path": "argparse.py",
+        "symbol": "too-many-instance-attributes",
+        "message": "Too many instance attributes (12/7)",
+        "message-id": "R0902"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_ActionsContainer.__init__",
+        "line": 1310,
+        "column": 8,
+        "endLine": 1310,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_ActionsContainer.register",
+        "line": 1358,
+        "column": 4,
+        "endLine": 1358,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer.register",
+        "line": 1358,
+        "column": 45,
+        "endLine": 1358,
+        "endColumn": 51,
+        "path": "argparse.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'object'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_ActionsContainer.set_defaults",
+        "line": 1368,
+        "column": 4,
+        "endLine": 1368,
+        "endColumn": 20,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_ActionsContainer.get_default",
+        "line": 1377,
+        "column": 4,
+        "endLine": 1377,
+        "endColumn": 19,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_ActionsContainer.add_argument",
+        "line": 1417,
+        "column": 29,
+        "endLine": 1417,
+        "endColumn": 50,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_ActionsContainer.add_argument",
+        "line": 1423,
+        "column": 29,
+        "endLine": 1423,
+        "endColumn": 49,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_ActionsContainer.add_argument",
+        "line": 1426,
+        "column": 29,
+        "endLine": 1427,
+        "endColumn": 46,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer.add_argument",
+        "line": 1432,
+        "column": 16,
+        "endLine": 1432,
+        "endColumn": 50,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _format_args of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer.add_argument",
+        "line": 1434,
+        "column": 16,
+        "endLine": 1434,
+        "endColumn": 80,
+        "path": "argparse.py",
+        "symbol": "raise-missing-from",
+        "message": "Consider explicitly re-raising using 'except TypeError as exc' and 'raise ValueError('length of metavar tuple does not match nargs') from exc'",
+        "message-id": "W0707"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_ActionsContainer.add_argument_group",
+        "line": 1438,
+        "column": 4,
+        "endLine": 1438,
+        "endColumn": 26,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_ActionsContainer.add_mutually_exclusive_group",
+        "line": 1443,
+        "column": 4,
+        "endLine": 1443,
+        "endColumn": 36,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer._add_container_actions",
+        "line": 1483,
+        "column": 21,
+        "endLine": 1483,
+        "endColumn": 45,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _action_groups of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer._add_container_actions",
+        "line": 1494,
+        "column": 26,
+        "endLine": 1494,
+        "endColumn": 46,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer._add_container_actions",
+        "line": 1500,
+        "column": 21,
+        "endLine": 1500,
+        "endColumn": 57,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _mutually_exclusive_groups of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer._add_container_actions",
+        "line": 1505,
+        "column": 26,
+        "endLine": 1505,
+        "endColumn": 46,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer._add_container_actions",
+        "line": 1509,
+        "column": 22,
+        "endLine": 1509,
+        "endColumn": 40,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer._add_container_actions",
+        "line": 1510,
+        "column": 12,
+        "endLine": 1510,
+        "endColumn": 51,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _add_action of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer._get_optional_kwargs",
+        "line": 1556,
+        "column": 39,
+        "endLine": 1556,
+        "endColumn": 52,
+        "path": "argparse.py",
+        "symbol": "undefined-loop-variable",
+        "message": "Using possibly undefined loop variable 'option_string'",
+        "message-id": "W0631"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "_ActionsContainer._get_handler",
+        "line": 1568,
+        "column": 28,
+        "endLine": 1568,
+        "endColumn": 49,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer._get_handler",
+        "line": 1573,
+        "column": 12,
+        "endLine": 1573,
+        "endColumn": 57,
+        "path": "argparse.py",
+        "symbol": "raise-missing-from",
+        "message": "Consider explicitly re-raising using 'except AttributeError as exc' and 'raise ValueError(msg % self.conflict_handler) from exc'",
+        "message-id": "W0707"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_ActionsContainer._handle_conflict_resolve",
+        "line": 1601,
+        "column": 27,
+        "endLine": 1601,
+        "endColumn": 33,
+        "path": "argparse.py",
+        "symbol": "redefined-argument-from-local",
+        "message": "Redefining argument with the local name 'action'",
+        "message-id": "R1704"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ActionsContainer._handle_conflict_resolve",
+        "line": 1610,
+        "column": 16,
+        "endLine": 1610,
+        "endColumn": 47,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _remove_action of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_ArgumentGroup",
+        "line": 1613,
+        "column": 0,
+        "endLine": 1613,
+        "endColumn": 20,
+        "path": "argparse.py",
+        "symbol": "too-many-instance-attributes",
+        "message": "Too many instance attributes (8/7)",
+        "message-id": "R0902"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_ArgumentGroup.__init__",
+        "line": 1615,
+        "column": 4,
+        "endLine": 1615,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "super-init-not-called",
+        "message": "__init__ method from base class '_ActionsContainer' is not called",
+        "message-id": "W0231"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_ArgumentGroup.__init__",
+        "line": 1621,
+        "column": 21,
+        "endLine": 1621,
+        "endColumn": 48,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_ArgumentGroup._add_action",
+        "line": 1638,
+        "column": 17,
+        "endLine": 1638,
+        "endColumn": 44,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_ArgumentGroup._remove_action",
+        "line": 1643,
+        "column": 8,
+        "endLine": 1643,
+        "endColumn": 35,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "_MutuallyExclusiveGroup.__init__",
+        "line": 1650,
+        "column": 8,
+        "endLine": 1650,
+        "endColumn": 44,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_MutuallyExclusiveGroup._add_action",
+        "line": 1658,
+        "column": 17,
+        "endLine": 1658,
+        "endColumn": 44,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _add_action of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "_MutuallyExclusiveGroup._remove_action",
+        "line": 1663,
+        "column": 8,
+        "endLine": 1663,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _remove_action of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser",
+        "line": 1667,
+        "column": 0,
+        "endLine": 1667,
+        "endColumn": 20,
+        "path": "argparse.py",
+        "symbol": "too-many-instance-attributes",
+        "message": "Too many instance attributes (11/7)",
+        "message-id": "R0902"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser.__init__",
+        "line": 1688,
+        "column": 4,
+        "endLine": 1688,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "dangerous-default-value",
+        "message": "Dangerous default value [] as argument",
+        "message-id": "W0102"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser.__init__",
+        "line": 1688,
+        "column": 4,
+        "endLine": 1688,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "super-init-not-called",
+        "message": "__init__ method from base class '_ActionsContainer' is not called",
+        "message-id": "W0231"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser.__init__",
+        "line": 1688,
+        "column": 4,
+        "endLine": 1688,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (14/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser.__init__",
+        "line": 1688,
+        "column": 4,
+        "endLine": 1688,
+        "endColumn": 16,
+        "path": "argparse.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (20/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser.__init__",
+        "line": 1703,
+        "column": 20,
+        "endLine": 1703,
+        "endColumn": 47,
+        "path": "argparse.py",
+        "symbol": "super-with-arguments",
+        "message": "Consider using Python 3 style super() without arguments",
+        "message-id": "R1725"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.add_subparsers",
+        "line": 1768,
+        "column": 4,
+        "endLine": 1768,
+        "endColumn": 22,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser.add_subparsers",
+        "line": 1794,
+        "column": 8,
+        "endLine": 1794,
+        "endColumn": 36,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _add_action of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._add_action",
+        "line": 1801,
+        "column": 12,
+        "endLine": 1801,
+        "endColumn": 39,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _add_action of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._add_action",
+        "line": 1803,
+        "column": 12,
+        "endLine": 1803,
+        "endColumn": 41,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _add_action of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_args",
+        "line": 1819,
+        "column": 4,
+        "endLine": 1819,
+        "endColumn": 18,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_args",
+        "line": 1826,
+        "column": 4,
+        "endLine": 1826,
+        "endColumn": 24,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_args",
+        "line": 1846,
+        "column": 8,
+        "endLine": 1848,
+        "endColumn": 62,
+        "path": "argparse.py",
+        "symbol": "consider-using-dict-items",
+        "message": "Consider iterating with .items()",
+        "message-id": "C0206"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_args",
+        "line": 1826,
+        "column": 4,
+        "endLine": 1826,
+        "endColumn": 24,
+        "path": "argparse.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (13/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args",
+        "line": 1865,
+        "column": 4,
+        "endLine": 1865,
+        "endColumn": 25,
+        "path": "argparse.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (34/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args",
+        "line": 1874,
+        "column": 28,
+        "endLine": 1874,
+        "endColumn": 54,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args",
+        "line": 1875,
+        "column": 45,
+        "endLine": 1875,
+        "endColumn": 71,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args.consume_optional",
+        "line": 1933,
+        "column": 8,
+        "endLine": 1933,
+        "endColumn": 28,
+        "path": "argparse.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (17/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args",
+        "line": 2039,
+        "column": 39,
+        "endLine": 2042,
+        "endColumn": 41,
+        "path": "argparse.py",
+        "symbol": "consider-using-generator",
+        "message": "Consider using a generator instead 'min(index for index in option_string_indices if index >= start_index)'",
+        "message-id": "R1728"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args",
+        "line": 2048,
+        "column": 16,
+        "endLine": 2052,
+        "endColumn": 55,
+        "path": "argparse.py",
+        "symbol": "no-else-continue",
+        "message": "Unnecessary \"else\" after \"continue\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1724"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args",
+        "line": 2096,
+        "column": 30,
+        "endLine": 2096,
+        "endColumn": 50,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args",
+        "line": 2103,
+        "column": 43,
+        "endLine": 2103,
+        "endColumn": 63,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args",
+        "line": 1865,
+        "column": 4,
+        "endLine": 1865,
+        "endColumn": 25,
+        "path": "argparse.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (26/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_known_args",
+        "line": 1865,
+        "column": 4,
+        "endLine": 1865,
+        "endColumn": 25,
+        "path": "argparse.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (117/50)",
+        "message-id": "R0915"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._read_args_from_files",
+        "line": 2123,
+        "column": 25,
+        "endLine": 2123,
+        "endColumn": 45,
+        "path": "argparse.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.convert_arg_line_to_args",
+        "line": 2137,
+        "column": 4,
+        "endLine": 2137,
+        "endColumn": 32,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_optional",
+        "line": 2218,
+        "column": 12,
+        "endLine": 2218,
+        "endColumn": 41,
+        "path": "argparse.py",
+        "symbol": "unbalanced-tuple-unpacking",
+        "message": "Possible unbalanced tuple unpacking with sequence defined at line 2237: left side has 1 label(s), right side has 0 value(s)",
+        "message-id": "W0632"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._parse_optional",
+        "line": 2178,
+        "column": 4,
+        "endLine": 2178,
+        "endColumn": 23,
+        "path": "argparse.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (9/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser._get_option_tuples",
+        "line": 2249,
+        "column": 16,
+        "endLine": 2253,
+        "endColumn": 42,
+        "path": "argparse.py",
+        "symbol": "consider-using-dict-items",
+        "message": "Consider iterating with .items()",
+        "message-id": "C0206"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._get_option_tuples",
+        "line": 2249,
+        "column": 20,
+        "endLine": 2249,
+        "endColumn": 33,
+        "path": "argparse.py",
+        "symbol": "redefined-argument-from-local",
+        "message": "Redefining argument with the local name 'option_string'",
+        "message-id": "R1704"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser._get_option_tuples",
+        "line": 2264,
+        "column": 12,
+        "endLine": 2272,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "consider-using-dict-items",
+        "message": "Consider iterating with .items()",
+        "message-id": "C0206"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._get_option_tuples",
+        "line": 2264,
+        "column": 16,
+        "endLine": 2264,
+        "endColumn": 29,
+        "path": "argparse.py",
+        "symbol": "redefined-argument-from-local",
+        "message": "Redefining argument with the local name 'option_string'",
+        "message-id": "R1704"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser._get_nargs_pattern",
+        "line": 2316,
+        "column": 28,
+        "endLine": 2316,
+        "endColumn": 38,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_intermixed_args",
+        "line": 2330,
+        "column": 4,
+        "endLine": 2330,
+        "endColumn": 29,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_intermixed_args",
+        "line": 2337,
+        "column": 4,
+        "endLine": 2337,
+        "endColumn": 35,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_intermixed_args",
+        "line": 2351,
+        "column": 8,
+        "endLine": 2351,
+        "endColumn": 9,
+        "path": "argparse.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"a\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_intermixed_args",
+        "line": 2354,
+        "column": 28,
+        "endLine": 2355,
+        "endColumn": 44,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_intermixed_args",
+        "line": 2358,
+        "column": 26,
+        "endLine": 2358,
+        "endColumn": 46,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_intermixed_args",
+        "line": 2381,
+        "column": 24,
+        "endLine": 2381,
+        "endColumn": 49,
+        "path": "argparse.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (warnings.warn)",
+        "message-id": "C0415"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_intermixed_args",
+        "line": 2382,
+        "column": 29,
+        "endLine": 2382,
+        "endColumn": 53,
+        "path": "argparse.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be a f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "error",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_intermixed_args",
+        "line": 2408,
+        "column": 25,
+        "endLine": 2408,
+        "endColumn": 35,
+        "path": "argparse.py",
+        "symbol": "used-before-assignment",
+        "message": "Using variable 'save_usage' before assignment",
+        "message-id": "E0601"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser.parse_known_intermixed_args",
+        "line": 2337,
+        "column": 4,
+        "endLine": 2337,
+        "endColumn": 35,
+        "path": "argparse.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (17/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser._get_values",
+        "line": 2464,
+        "column": 16,
+        "endLine": 2464,
+        "endColumn": 17,
+        "path": "argparse.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"v\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "argparse",
+        "obj": "ArgumentParser._get_values",
+        "line": 2414,
+        "column": 4,
+        "endLine": 2414,
+        "endColumn": 19,
+        "path": "argparse.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (15/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._get_value",
+        "line": 2484,
+        "column": 12,
+        "endLine": 2484,
+        "endColumn": 44,
+        "path": "argparse.py",
+        "symbol": "raise-missing-from",
+        "message": "Consider explicitly re-raising using 'except ArgumentTypeError as exc' and 'raise ArgumentError(action, msg) from exc'",
+        "message-id": "W0707"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser._get_value",
+        "line": 2491,
+        "column": 12,
+        "endLine": 2491,
+        "endColumn": 51,
+        "path": "argparse.py",
+        "symbol": "raise-missing-from",
+        "message": "Consider explicitly re-raising using 'except (TypeError, ValueError) as exc' and 'raise ArgumentError(action, msg % args) from exc'",
+        "message-id": "W0707"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.format_usage",
+        "line": 2507,
+        "column": 4,
+        "endLine": 2507,
+        "endColumn": 20,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.format_help",
+        "line": 2513,
+        "column": 4,
+        "endLine": 2513,
+        "endColumn": 19,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "argparse",
+        "obj": "ArgumentParser.format_help",
+        "line": 2527,
+        "column": 36,
+        "endLine": 2527,
+        "endColumn": 63,
+        "path": "argparse.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _group_actions of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.print_usage",
+        "line": 2542,
+        "column": 4,
+        "endLine": 2542,
+        "endColumn": 19,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.print_help",
+        "line": 2547,
+        "column": 4,
+        "endLine": 2547,
+        "endColumn": 18,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "argparse",
+        "obj": "ArgumentParser.exit",
+        "line": 2561,
+        "column": 4,
+        "endLine": 2561,
+        "endColumn": 12,
+        "path": "argparse.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,W,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/helpers.py
+cwd: .
+Starting Pylance language server.
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]

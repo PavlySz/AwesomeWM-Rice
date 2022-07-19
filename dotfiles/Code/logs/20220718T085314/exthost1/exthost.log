@@ -1,0 +1,158 @@
+[2022-07-18 08:53:16.355] [exthost] [info] Extension host with pid 12478 started
+[2022-07-18 08:53:16.355] [exthost] [info] Skipping acquiring lock for /home/bot/.config/Code/User/workspaceStorage/a509899ca4222ba68b15554889924930.
+[2022-07-18 08:53:16.413] [exthost] [info] ExtensionService#_doActivateExtension GrapeCity.gc-excelviewer, startup: false, activationEvent: 'onLanguage:plaintext'
+[2022-07-18 08:53:16.415] [exthost] [info] ExtensionService#_doActivateExtension KevinRose.vsc-python-indent, startup: false, activationEvent: 'onLanguage:python'
+[2022-07-18 08:53:16.418] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.pylint
+[2022-07-18 08:53:16.596] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-07-18 08:53:16.775] [exthost] [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+[2022-07-18 08:53:16.801] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+[2022-07-18 08:53:16.872] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-07-18 08:53:16.884] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-18 08:53:16.886] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-18 08:53:16.889] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-18 08:53:16.891] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+[2022-07-18 08:53:16.908] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-07-18 08:53:16.922] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-07-18 08:53:16.931] [exthost] [info] ExtensionService#_doActivateExtension ms-mssql.data-workspace-vscode, startup: true, activationEvent: '*'
+[2022-07-18 08:53:16.940] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: true, activationEvent: '*'
+[2022-07-18 08:53:17.080] [exthost] [info] ExtensionService#_doActivateExtension mtxr.sqltools, startup: true, activationEvent: '*'
+[2022-07-18 08:53:17.100] [exthost] [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: true, activationEvent: '*'
+[2022-07-18 08:53:17.121] [exthost] [info] ExtensionService#_doActivateExtension wheredoesyourmindgo.gruvbox-concoctis, startup: true, activationEvent: '*'
+[2022-07-18 08:53:17.145] [exthost] [info] ExtensionService#_doActivateExtension xyz.local-history, startup: true, activationEvent: '*'
+[2022-07-18 08:53:18.004] [exthost] [info] ExtensionService#_doActivateExtension ms-mssql.mssql, startup: false, activationEvent: 'api', root cause: ms-mssql.data-workspace-vscode
+[2022-07-18 08:53:18.412] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-18 08:53:18.429] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-18 08:53:18.432] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-07-18 08:53:18.551] [exthost] [info] ExtensionService#_doActivateExtension ms-python.pylint, startup: false, activationEvent: 'onLanguage:python'
+[2022-07-18 08:53:18.559] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-07-18 08:53:18.686] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-07-18 08:53:18.846] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-18 08:53:18.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-18 08:53:18.863] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-18 08:53:19.684] [exthost] [info] ExtensionService#_doActivateExtension ms-mssql.sql-database-projects-vscode, startup: false, activationEvent: 'api', root cause: ms-mssql.data-workspace-vscode
+[2022-07-18 08:53:20.466] [exthost] [error] Activating extension ms-vsliveshare.vsliveshare failed due to an error:
+[2022-07-18 08:53:20.466] [exthost] [error] Error: Agent terminated with exit code: 0 and signal null: Process terminated. Couldn't find a valid ICU package installed on the system. Set the configuration flag System.Globalization.Invariant to true if you want to run with no globalization support.
+   at System.Environment.FailFast(System.String)
+   at System.Globalization.GlobalizationMode.GetGlobalizationInvariantMode()
+   at System.Globalization.GlobalizationMode..cctor()
+   at System.Globalization.CultureData.CreateCultureWithInvariantData()
+   at System.Globalization.CultureData.get_Invariant()
+   at System.Globalization.CultureInfo..cctor()at System.String.ToLowerInvariant()
+   at System.Text.EncodingHelper.GetCharset()
+   at System.Text.EncodingHelper.GetEncodingFromCharset()
+   at System.ConsolePal.GetConsoleEncoding()
+   at System.Console+<>c.<get_OutputEncoding>b__19_0()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[[System.__Canon, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]](System.__Canon ByRef, System.Object ByRef, System.Func`1<System.__Canon>)
+   at System.Threading.LazyInitializer.EnsureInitialized[[System.__Canon, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]](System.__Canon ByRef, System.Object ByRef, System.Func`1<System.__Canon>)
+   at System.Console.get_OutputEncoding()
+   at System.Console.CreateOutputWriter(System.IO.Stream)
+   at System.Console+<>c.<get_Out>b__26_0()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[[System.__Canon, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]](System.__Canon ByRef, System.Object ByRef, System.Func`1<System.__Canon>)
+   at System.Threading.LazyInitializer.EnsureInitialized[[System.__Canon, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]](System.__Canon ByRef, System.Object ByRef, System.Func`1<System.__Canon>)
+   at System.Console.get_Out()
+   at Microsoft.Extensions.CommandLineUtils.CommandLineApplication..ctor(Boolean)
+   at Microsoft.Cascade.Agent.Program..ctor()
+   at Microsoft.Cascade.Agent.Program.Main(System.String[])
+    at ChildProcess.<anonymous> (/home/bot/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5641/src/abstractions/node/agent.ts:303:32)
+    at ChildProcess.emit (node:events:402:35)
+    at ChildProcess.emit (node:domain:475:12)
+    at maybeClose (node:internal/child_process:1064:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:390:28)
+    at Socket.emit (node:domain:475:12)
+    at Pipe.<anonymous> (node:net:687:12)
+[2022-07-18 08:53:20.467] [exthost] [info] Eager extensions activated
+[2022-07-18 08:53:20.471] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:53:20.479] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:53:20.481] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:53:20.488] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:53:20.518] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:53:20.525] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:53:20.573] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:53:20.597] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:53:20.603] [exthost] [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:53:20.604] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-18 08:54:16.566] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 08:54:33.102] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 08:55:28.874] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 08:56:28.588] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 08:57:45.162] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 08:59:19.050] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:00:15.339] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:07:57.404] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:08:30.532] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:12:33.015] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:13:50.072] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:13:54.564] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:13:59.393] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:14:03.636] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:16:10.985] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:18:40.578] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:18:40.616] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-18 09:18:40.624] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-18 09:18:40.632] [exthost] [info] ExtensionService#_doActivateExtension ZainChen.json, startup: false, activationEvent: 'onLanguage:json'
+[2022-07-18 09:18:47.933] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:19:19.913] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:19:45.015] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:20:45.962] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:45:20.844] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:45:23.063] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 09:45:28.269] [exthost] [warning] ms-python.python - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-07-18 09:50:11.237] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 10:00:44.824] [exthost] [warning] ms-python.python - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-07-18 10:10:58.803] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 10:11:53.900] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 10:13:07.069] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 10:14:13.406] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 10:46:36.760] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 10:47:43.123] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 10:50:40.859] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 10:50:41.789] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 10:54:41.603] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:52:48.274] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:52:49.376] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:52:57.865] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:52:59.601] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:53:00.554] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:53:02.613] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:53:07.422] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:53:10.713] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:56:11.840] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:57:50.416] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:58:11.427] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:58:34.312] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:58:38.882] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 11:58:47.497] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 12:03:24.755] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 12:03:25.813] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 12:04:51.099] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 12:05:01.376] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 12:09:43.228] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 12:10:16.295] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 12:10:44.351] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 14:05:26.183] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 15:12:14.698] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 15:12:29.531] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-18 23:13:34.919] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-18 23:13:34.947] [exthost] [warning] {"name":"Canceled"}
+[2022-07-18 23:13:34.954] [exthost] [error] Canceled: Canceled
+    at new y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:41560)
+    at s._remoteCall (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13765)
+    at Proxy.k.<computed>.U.charCodeAt.k.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10308)
+    at D.showMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:89535)
+    at Object.showErrorMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:41593)
+    at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1243288
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at o._executeContributedCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:62863)
+    at o._executeContributedCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:62863) git.commit {"value":"vscode.git","_lower":"vscode.git"}
+[2022-07-18 23:13:34.954] [exthost] [error] Canceled: Canceled
+    at new y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:41560)
+    at s._remoteCall (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13765)
+    at Proxy.k.<computed>.U.charCodeAt.k.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10308)
+    at D.showMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:89535)
+    at Object.showErrorMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:41593)
+    at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1243288
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at o._executeContributedCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:62863)
+    at o._executeContributedCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:62863) _vscode_delegate_cmd_l5qe4czk undefined
+[2022-07-18 23:13:34.956] [exthost] [info] Extension host with pid 12478 exiting with code 0

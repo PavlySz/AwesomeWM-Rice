@@ -1,0 +1,817 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+> conda info --json
+Python interpreter path: ~/anaconda3/envs/bright/bin/python
+> ~/.conda/bin/conda info --json
+> ~/anaconda3/bin/conda info --json
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/bright/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/tf2/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+Pylance extension is not installed.
+Starting Jedi language server for BRIGHT-reporting.
+LSP Notebooks experiment is disabled -- not using Pylance
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+##########Linting Output - pylama##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pycodestyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m flake8 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import flake8"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import flake8"
+
+Linter 'flake8' is not installed. Please install it or select another linter".
+Error: Module 'flake8' not installed.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import pip"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/conda info --json
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import flake8"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m flake8 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - flake8##########
+
+3,80,E,E501:line too long (92 > 79 characters)
+25,80,E,E501:line too long (86 > 79 characters)
+38,80,E,E501:line too long (95 > 79 characters)
+77,80,E,E501:line too long (94 > 79 characters)
+116,80,E,E501:line too long (81 > 79 characters)
+124,80,E,E501:line too long (92 > 79 characters)
+125,80,E,E501:line too long (94 > 79 characters)
+126,80,E,E501:line too long (94 > 79 characters)
+134,80,E,E501:line too long (83 > 79 characters)
+139,80,E,E501:line too long (85 > 79 characters)
+141,80,E,E501:line too long (95 > 79 characters)
+151,80,E,E501:line too long (85 > 79 characters)
+152,80,E,E501:line too long (82 > 79 characters)
+174,80,E,E501:line too long (94 > 79 characters)
+185,80,E,E501:line too long (91 > 79 characters)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m flake8 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - flake8##########
+
+3,80,E,E501:line too long (92 > 79 characters)
+25,80,E,E501:line too long (86 > 79 characters)
+38,80,E,E501:line too long (95 > 79 characters)
+77,80,E,E501:line too long (94 > 79 characters)
+116,80,E,E501:line too long (81 > 79 characters)
+124,80,E,E501:line too long (92 > 79 characters)
+125,80,E,E501:line too long (94 > 79 characters)
+126,80,E,E501:line too long (94 > 79 characters)
+134,80,E,E501:line too long (83 > 79 characters)
+139,80,E,E501:line too long (85 > 79 characters)
+141,80,E,E501:line too long (95 > 79 characters)
+151,80,E,E501:line too long (85 > 79 characters)
+152,80,E,E501:line too long (82 > 79 characters)
+174,80,E,E501:line too long (94 > 79 characters)
+185,80,E,E501:line too long (91 > 79 characters)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylama##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylama##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --extension-pkg-whitelist=cv2,numpy --max-line-length=100 --enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": 191,
+        "endColumn": 6,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    },
+    {
+        "type": "error",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": 191,
+        "endColumn": 6,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'sfasdf'",
+        "message-id": "E0602"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "trailing-newlines",
+        "message": "Trailing newlines",
+        "message-id": "C0305"
+    },
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "error",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 192,
+        "column": 5,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "syntax-error",
+        "message": "invalid syntax (<unknown>, line 192)",
+        "message-id": "E0001"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 192,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 192,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 192,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint python.formatting.provider python.formatting.autopep8Args ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "fatal",
+        "module": "python.formatting.provider",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "python.formatting.provider",
+        "symbol": "fatal",
+        "message": "No module named python.formatting.provider",
+        "message-id": "F0001"
+    },
+    {
+        "type": "fatal",
+        "module": "python.formatting.autopep8Args",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "python.formatting.autopep8Args",
+        "symbol": "fatal",
+        "message": "No module named python.formatting.autopep8Args",
+        "message-id": "F0001"
+    },
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import bandit"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import bandit"
+
+Linter 'bandit' is not installed. Please install it or select another linter".
+Error: Module 'bandit' not installed.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import pip"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import bandit"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+[ERROR 2022-6-17 22:45:17.698]: [
+  `Failed to start language server, Class name = h, completed in 276ms, has a falsy return value, Arg 1: <Uri:/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting>, Arg 2: {"id":"/home/bot/anaconda3/envs/bright/bin/python","sysPrefix":"/home/bot/anaconda3/envs/bright","envType":"Conda","envName":"bright","envPath":"/home/bot/anaconda3/envs/bright","path":"/home/bot/anaconda3/envs/bright/bin/python","architecture":3,"sysVersion":"3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]","version":{"raw":"3.10.0","major":3,"minor":10,"patch":0,"build":[],"prerelease":["final","0"]},"companyDisplayName":"Anaconda, Inc.","displayName":"Python 3.10.0 ('bright')","detailedDisplayName":"Python 3.10.0 ('bright': conda)"}, Arg 3: <argument cannot be serialized for logging>, Return Value: undefined`,
+  Error: command 'pyright.createtypestub' already exists
+      at o.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:61206)
+      at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:30919)
+      at t.ExecuteCommandFeature.register (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2225337)
+      at t.ExecuteCommandFeature.initialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2224916)
+      at S.initializeFeatures (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2176830)
+      at S.doInitialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2164379)
+      at S.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2161394)
+      at h.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:35572) {
+    vslsStack: [
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {}
+    ]
+  }
+]
+[ERROR 2022-6-17 22:45:17.700]: [
+  'Starting language server, Class name = d, completed in 279ms, has a falsy return value, , Return Value: undefined',
+  Error: command 'pyright.createtypestub' already exists
+      at o.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:61206)
+      at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:30919)
+      at t.ExecuteCommandFeature.register (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2225337)
+      at t.ExecuteCommandFeature.initialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2224916)
+      at S.initializeFeatures (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2176830)
+      at S.doInitialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2164379)
+      at S.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2161394)
+      at h.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:35572) {
+    vslsStack: [
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {}
+    ]
+  }
+]
+[ERROR 2022-6-17 22:45:17.700]: [
+  `Failed to start language server, Class name = d, completed in 279ms, has a falsy return value, Arg 1: <Uri:/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting>, Arg 2: {"id":"/home/bot/anaconda3/envs/bright/bin/python","sysPrefix":"/home/bot/anaconda3/envs/bright","envType":"Conda","envName":"bright","envPath":"/home/bot/anaconda3/envs/bright","path":"/home/bot/anaconda3/envs/bright/bin/python","architecture":3,"sysVersion":"3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]","version":{"raw":"3.10.0","major":3,"minor":10,"patch":0,"build":[],"prerelease":["final","0"]},"companyDisplayName":"Anaconda, Inc.","displayName":"Python 3.10.0 ('bright')","detailedDisplayName":"Python 3.10.0 ('bright': conda)"}, Return Value: undefined`,
+  Error: command 'pyright.createtypestub' already exists
+      at o.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:61206)
+      at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:30919)
+      at t.ExecuteCommandFeature.register (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2225337)
+      at t.ExecuteCommandFeature.initialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2224916)
+      at S.initializeFeatures (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2176830)
+      at S.doInitialize (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2164379)
+      at S.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:2161394)
+      at h.start (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:35572) {
+    vslsStack: [
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {},
+      CallSite {}
+    ]
+  }
+]

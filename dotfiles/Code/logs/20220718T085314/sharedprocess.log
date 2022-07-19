@@ -1,0 +1,10 @@
+[2022-07-18 08:53:16.478] [sharedprocess] [info] Starting worker process with pid 12525 (type: fileWatcher, window: 1).
+[2022-07-18 09:51:14.595] [sharedprocess] [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+[2022-07-18 09:58:08.319] [sharedprocess] [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+[2022-07-18 10:16:53.283] [sharedprocess] [info] Getting Manifest... 076923.python-image-preview
+[2022-07-18 10:16:53.285] [sharedprocess] [info] Installing extension: 076923.python-image-preview
+[2022-07-18 10:16:56.690] [sharedprocess] [info] Downloaded extension: 076923.python-image-preview /home/bot/.config/Code/CachedExtensionVSIXs/076923.python-image-preview-0.1.2
+[2022-07-18 10:16:56.734] [sharedprocess] [info] Extracted extension to /home/bot/.vscode/extensions/.3e7a8cce-f450-4ffa-b7da-16614830c43c: 076923.python-image-preview
+[2022-07-18 10:16:56.738] [sharedprocess] [info] Renamed to /home/bot/.vscode/extensions/076923.python-image-preview-0.1.2
+[2022-07-18 10:16:56.738] [sharedprocess] [info] Extracting completed. 076923.python-image-preview
+[2022-07-18 10:16:56.739] [sharedprocess] [info] Extension installed successfully: 076923.python-image-preview

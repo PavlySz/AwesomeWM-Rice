@@ -1,0 +1,1461 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+LSP Notebooks experiment is disabled -- not in treatment group
+> conda info --json
+Python interpreter path: ~/anaconda3/envs/bright/bin/python
+> ~/.conda/bin/conda info --json
+> ~/anaconda3/bin/conda info --json
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/bright/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/tf2/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "read_config",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 2,
+        "path": "app/etl/read_config.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    },
+    {
+        "type": "error",
+        "module": "read_config",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 2,
+        "path": "app/etl/read_config.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'sf'",
+        "message-id": "E0602"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "error",
+        "module": "read_config",
+        "obj": "",
+        "line": 12,
+        "column": 6,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/read_config.py",
+        "symbol": "syntax-error",
+        "message": "invalid syntax (<unknown>, line 12)",
+        "message-id": "E0001"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "read_config",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 2,
+        "path": "app/etl/read_config.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"sf\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/read_config.py.695beeec60401eec88c54d4e668ca30e.tmp
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 47,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 10,
+        "path": "app/etl/helpers.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    },
+    {
+        "type": "error",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 10,
+        "path": "app/etl/helpers.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'MY'",
+        "message-id": "E0602"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 15,
+        "path": "app/etl/helpers.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"MY_DICK\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 15,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'MY_DICK'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 15,
+        "path": "app/etl/helpers.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"MY_DICK\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 15,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'MY_DICK'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "error",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 15,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "syntax-error",
+        "message": "invalid syntax (<unknown>, line 80)",
+        "message-id": "E0001"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "error",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 15,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "syntax-error",
+        "message": "invalid syntax (<unknown>, line 80)",
+        "message-id": "E0001"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "error",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 14,
+        "endLine": 80,
+        "endColumn": 22,
+        "path": "app/etl/helpers.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'redshift'",
+        "message-id": "E0602"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "error",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 14,
+        "endLine": 80,
+        "endColumn": 24,
+        "path": "app/etl/helpers.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'redshift_c'",
+        "message-id": "E0602"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": 80,
+        "endColumn": 11,
+        "path": "app/etl/helpers.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    },
+    {
+        "type": "error",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": 80,
+        "endColumn": 11,
+        "path": "app/etl/helpers.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'i_am_unused'",
+        "message-id": "E0602"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": 80,
+        "endColumn": 11,
+        "path": "app/etl/helpers.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"i_am_unused\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": 80,
+        "endColumn": 11,
+        "path": "app/etl/helpers.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"i_am_unused\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": 80,
+        "endColumn": 11,
+        "path": "app/etl/helpers.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"i_am_unused\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "error",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 7,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "syntax-error",
+        "message": "unindent does not match any outer indentation level (<unknown>, line 80)",
+        "message-id": "E0001"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "error",
+        "module": "helpers",
+        "obj": "",
+        "line": 80,
+        "column": 7,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "syntax-error",
+        "message": "unindent does not match any outer indentation level (<unknown>, line 80)",
+        "message-id": "E0001"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "helpers",
+        "obj": "",
+        "line": 78,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/helpers.py",
+        "symbol": "trailing-newlines",
+        "message": "Trailing newlines",
+        "message-id": "C0305"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 47,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 14,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'my_dck'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/helpers.py.39ac25a9052d40bcd23d6cbe2bafeed3.tmp
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/helpers.py
+cwd: .
+Starting Pylance language server.
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W  ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W  ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W  ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:56:21.425]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:56:21.479]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:56:21.493]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W allow-global-unused-variables=no ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W allow-global-unused-variables=no ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W allow-global-unused-variables=no ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "fatal",
+        "module": "allow-global-unused-variables=no",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "allow-global-unused-variables=no",
+        "symbol": "fatal",
+        "message": "No module named allow-global-unused-variables=no",
+        "message-id": "F0001"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "fatal",
+        "module": "allow-global-unused-variables=no",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "allow-global-unused-variables=no",
+        "symbol": "fatal",
+        "message": "No module named allow-global-unused-variables=no",
+        "message-id": "F0001"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "fatal",
+        "module": "allow-global-unused-variables=no",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "allow-global-unused-variables=no",
+        "symbol": "fatal",
+        "message": "No module named allow-global-unused-variables=no",
+        "message-id": "F0001"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "copy2s3",
+        "line": 8,
+        "column": 0,
+        "endLine": 8,
+        "endColumn": 11,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'copy2s3'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 33,
+        "column": 0,
+        "endLine": 33,
+        "endColumn": 18,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'pause_instance'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "resume_instance",
+        "line": 56,
+        "column": 0,
+        "endLine": 56,
+        "endColumn": 19,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'resume_instance'",
+        "message-id": "W0612"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 40,
+        "column": 10,
+        "endLine": 40,
+        "endColumn": 11,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 188,
+        "column": 0,
+        "endLine": 188,
+        "endColumn": 1,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 70,
+        "column": 4,
+        "endLine": 70,
+        "endColumn": 7,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'res'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 40,
+        "column": 10,
+        "endLine": 40,
+        "endColumn": 11,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 70,
+        "column": 4,
+        "endLine": 70,
+        "endColumn": 5,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 188,
+        "column": 0,
+        "endLine": 188,
+        "endColumn": 1,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no --allow-global-unused-variables=no ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no --allow-global-unused-variables=no ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no --allow-global-unused-variables=no ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "copy2s3",
+        "line": 8,
+        "column": 0,
+        "endLine": 8,
+        "endColumn": 11,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'copy2s3'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 33,
+        "column": 0,
+        "endLine": 33,
+        "endColumn": 18,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'pause_instance'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "resume_instance",
+        "line": 56,
+        "column": 0,
+        "endLine": 56,
+        "endColumn": 19,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'resume_instance'",
+        "message-id": "W0612"
+    }
+]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 40,
+        "column": 10,
+        "endLine": 40,
+        "endColumn": 11,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 70,
+        "column": 4,
+        "endLine": 70,
+        "endColumn": 5,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 188,
+        "column": 0,
+        "endLine": 188,
+        "endColumn": 1,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no -- ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no -- ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no -- ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:59:0.251]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:59:0.288]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:59:0.298]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no -- -- ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no -- -- ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no -- -- ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:59:1.685]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:59:1.686]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:59:1.739]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no -- ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no -- ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no -- ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:59:3.312]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:59:3.329]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+##########Linting Output - pylint##########
+
+
+[ERROR 2022-6-17 23:59:3.368]: Linter 'pylint' failed to parse the output '. SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at s.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508570)
+    at s.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at s.runLinter (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:508085)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no --include-naming-hint=no , ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no --include-naming-hint=no , ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no --include-naming-hint=no , ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "fatal",
+        "module": ",",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": ",",
+        "symbol": "fatal",
+        "message": "No module named ,",
+        "message-id": "F0001"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "fatal",
+        "module": ",",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": ",",
+        "symbol": "fatal",
+        "message": "No module named ,",
+        "message-id": "F0001"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "copy2s3",
+        "line": 8,
+        "column": 0,
+        "endLine": 8,
+        "endColumn": 11,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'copy2s3'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 33,
+        "column": 0,
+        "endLine": 33,
+        "endColumn": 18,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'pause_instance'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "resume_instance",
+        "line": 56,
+        "column": 0,
+        "endLine": 56,
+        "endColumn": 19,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'resume_instance'",
+        "message-id": "W0612"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "fatal",
+        "module": ",",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": ",",
+        "symbol": "fatal",
+        "message": "No module named ,",
+        "message-id": "F0001"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 40,
+        "column": 10,
+        "endLine": 40,
+        "endColumn": 11,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 70,
+        "column": 4,
+        "endLine": 70,
+        "endColumn": 5,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 188,
+        "column": 0,
+        "endLine": 188,
+        "endColumn": 1,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no --include-naming-hint=yes ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no --include-naming-hint=yes ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --allow-global-unused-variables=no --include-naming-hint=yes ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "copy2s3",
+        "line": 8,
+        "column": 0,
+        "endLine": 8,
+        "endColumn": 11,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'copy2s3'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "pause_instance",
+        "line": 33,
+        "column": 0,
+        "endLine": 33,
+        "endColumn": 18,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'pause_instance'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "helpers",
+        "obj": "resume_instance",
+        "line": 56,
+        "column": 0,
+        "endLine": 56,
+        "endColumn": 19,
+        "path": "app/etl/helpers.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'resume_instance'",
+        "message-id": "W0612"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 40,
+        "column": 10,
+        "endLine": 40,
+        "endColumn": 11,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 70,
+        "column": 4,
+        "endLine": 70,
+        "endColumn": 5,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 188,
+        "column": 0,
+        "endLine": 188,
+        "endColumn": 1,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable '_'",
+        "message-id": "W0612"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --include-naming-hint=yes ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --include-naming-hint=yes ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --include-naming-hint=yes ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --max-line-length=100 --enable=F,E,W --include-naming-hint=yes ./app/etl/read_config.py
+cwd: .

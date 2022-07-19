@@ -1,0 +1,2612 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+LSP Notebooks experiment is disabled -- not in treatment group
+> conda info --json
+Python interpreter path: ~/anaconda3/envs/bright/bin/python
+> ~/.conda/bin/conda info --json
+> ~/anaconda3/bin/conda info --json
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/bright/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+> ~/anaconda3/envs/tf2/bin/python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+191,6,W,W291:trailing whitespace
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py:1 at module level:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py:1 at module level:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py:1 at module level:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py:1 at module level:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py:1 at module level:
+        D400: First line should end with a period (not 't')
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/read_config.py:1 at module level:
+        D400: First line should end with a period (not 'g')
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/read_config.py:1 at module level:
+        D400: First line should end with a period (not 'g')
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ~/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist/typeshed-fallback/stdlib/logging/__init__.pyi
+cwd: ~/.vscode/extensions/ms-python.vscode-pylance-2022.7.30/dist/typeshed-fallback/stdlib/logging
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:1 at module level:
+        D400: First line should end with a period (not 't')
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:8 in public function `copy2s3`:
+        D400: First line should end with a period (not 't')
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:33 in public function `pause_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:55 in public function `resume_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:1 at module level:
+        D400: First line should end with a period (not 't')
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:9 in public function `copy2s3`:
+        D400: First line should end with a period (not 't')
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:34 in public function `pause_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:56 in public function `resume_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/helpers.py.39ac25a9052d40bcd23d6cbe2bafeed3.tmp
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:9 in public function `copy2s3`:
+        D400: First line should end with a period (not 't')
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:34 in public function `pause_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:56 in public function `resume_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:9 in public function `copy2s3`:
+        D210: No whitespaces allowed surrounding docstring text
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:9 in public function `copy2s3`:
+        D400: First line should end with a period (not 't')
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:33 in public function `pause_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:55 in public function `resume_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:9 in public function `copy2s3`:
+        D400: First line should end with a period (not 't')
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:34 in public function `pause_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:56 in public function `resume_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:34 in public function `pause_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:56 in public function `resume_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:34 in public function `pause_instance`:
+        D205: 1 blank line required between summary line and description (found 2)
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:58 in public function `resume_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:57 in public function `resume_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py:57 in public function `resume_instance`:
+        D205: 1 blank line required between summary line and description (found 0)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py.c8dbb65201c1838cd0dc6cf3e8cefdf1.tmp
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+##########Linting Output - pydocstyle##########
+
+
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use '_' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "refactor",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 116,
+        "column": 56,
+        "endLine": 116,
+        "endColumn": 67,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "unnecessary-dict-index-lookup",
+        "message": "Unnecessary dictionary index lookup, use 'val' instead",
+        "message-id": "R1733"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff --line-range 116 116 ./app/etl/ps_etl.py.c8dbb65201c1838cd0dc6cf3e8cefdf1.tmp
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 190,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "trailing-newlines",
+        "message": "Trailing newlines",
+        "message-id": "C0305"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": 191,
+        "endColumn": 15,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    },
+    {
+        "type": "error",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": 191,
+        "endColumn": 15,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'please_tell_me_'",
+        "message-id": "E0602"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": 191,
+        "endColumn": 18,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    },
+    {
+        "type": "error",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": 191,
+        "endColumn": 18,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'please_tell_me_you'",
+        "message-id": "E0602"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": 191,
+        "endColumn": 21,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    },
+    {
+        "type": "error",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": 191,
+        "endColumn": 21,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'please_tell_me_you_wo'",
+        "message-id": "E0602"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "convention",
+        "module": "ps_etl",
+        "obj": "",
+        "line": 191,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "app/etl/ps_etl.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m flake8 "--enable=E, W, F, C, N" ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m flake8 "--enable=E, W, F, C, N" ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m flake8 "--enable=E, W, F, C, N" ./app/etl/helpers.py
+cwd: .
+##########Linting Output - flake8##########
+
+42,80,E,E501:line too long (81 > 79 characters)
+##########Linting Output - flake8##########
+
+37,80,E,E501:line too long (86 > 79 characters)
+60,80,E,E501:line too long (85 > 79 characters)
+70,80,E,E501:line too long (80 > 79 characters)
+##########Linting Output - flake8##########
+
+3,80,E,E501:line too long (92 > 79 characters)
+25,80,E,E501:line too long (86 > 79 characters)
+38,80,E,E501:line too long (95 > 79 characters)
+77,80,E,E501:line too long (94 > 79 characters)
+124,80,E,E501:line too long (92 > 79 characters)
+125,80,E,E501:line too long (94 > 79 characters)
+126,80,E,E501:line too long (94 > 79 characters)
+134,80,E,E501:line too long (83 > 79 characters)
+139,80,E,E501:line too long (85 > 79 characters)
+141,80,E,E501:line too long (95 > 79 characters)
+151,80,E,E501:line too long (85 > 79 characters)
+152,80,E,E501:line too long (82 > 79 characters)
+174,80,E,E501:line too long (94 > 79 characters)
+185,80,E,E501:line too long (91 > 79 characters)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m bandit ./app/etl/helpers.py
+cwd: .
+##########Linting Output - bandit##########
+
+30,11,HIGH,B605:Starting a process with a shell, possible injection detected, security issue.
+##########Linting Output - bandit##########
+
+138,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+150,18,MEDIUM,B608:Possible SQL injection vector through string-based query construction.
+##########Linting Output - bandit##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import mypy"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import mypy"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import mypy"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import mypy"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import mypy"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import mypy"
+
+Linter 'mypy' is not installed. Please install it or select another linter".
+Error: Module 'mypy' not installed.
+
+Linter 'mypy' is not installed. Please install it or select another linter".
+Error: Module 'mypy' not installed.
+
+Linter 'mypy' is not installed. Please install it or select another linter".
+Error: Module 'mypy' not installed.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import pip"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/printEnvVariables.py
+> ~/anaconda3/bin/conda info --json
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import mypy"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - mypy##########
+
+Success: no issues found in 1 source file
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./app/etl/helpers.py
+cwd: .
+##########Linting Output - mypy##########
+
+Success: no issues found in 1 source file
+##########Linting Output - mypy##########
+
+Success: no issues found in 1 source file
+##########Linting Output - mypy##########
+
+Success: no issues found in 1 source file
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import prospector"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import prospector"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import prospector"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import prospector"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import prospector"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import prospector"
+
+Linter 'prospector' is not installed. Please install it or select another linter".
+Error: Module 'prospector' not installed.
+
+Linter 'prospector' is not installed. Please install it or select another linter".
+Error: Module 'prospector' not installed.
+
+Linter 'prospector' is not installed. Please install it or select another linter".
+Error: Module 'prospector' not installed.
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import pip"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -c "import prospector"
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/ps_etl.py
+cwd: .
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:31:54.632370",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2022-07-17 23:31:55.325778",
+    "time_taken": "0.69",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "N816",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 191,
+        "character": 2
+      },
+      "message": "variable 'please_tell_me_you_work_now_for_fuckSake' in global scope should not be mixedCase"
+    }
+  ]
+}
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/ps_etl.py
+cwd: .
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:32:24.229838",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 0,
+    "completed": "2022-07-17 23:32:24.906869",
+    "time_taken": "0.68",
+    "formatter": "json"
+  },
+  "messages": []
+}
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/ps_etl.py
+cwd: .
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:32:30.913040",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 0,
+    "completed": "2022-07-17 23:32:31.603674",
+    "time_taken": "0.69",
+    "formatter": "json"
+  },
+  "messages": []
+}
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/helpers.py
+cwd: .
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:32:58.802669",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 0,
+    "completed": "2022-07-17 23:32:59.022421",
+    "time_taken": "0.22",
+    "formatter": "json"
+  },
+  "messages": []
+}
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:32:58.819539",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 0,
+    "completed": "2022-07-17 23:32:59.075543",
+    "time_taken": "0.26",
+    "formatter": "json"
+  },
+  "messages": []
+}
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:32:58.783278",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 0,
+    "completed": "2022-07-17 23:32:59.512139",
+    "time_taken": "0.73",
+    "formatter": "json"
+  },
+  "messages": []
+}
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector app/etl/helpers.py
+cwd: .
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:33:01.356100",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 0,
+    "completed": "2022-07-17 23:33:01.608211",
+    "time_taken": "0.25",
+    "formatter": "json"
+  },
+  "messages": []
+}
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:33:01.380143",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 0,
+    "completed": "2022-07-17 23:33:01.646428",
+    "time_taken": "0.27",
+    "formatter": "json"
+  },
+  "messages": []
+}
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:33:01.334143",
+    "libraries": [],
+    "strictness": null,
+    "profiles": "default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 0,
+    "completed": "2022-07-17 23:33:02.097539",
+    "time_taken": "0.76",
+    "formatter": "json"
+  },
+  "messages": []
+}
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector "--enable=E, W, F, C, N" app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector "--enable=E, W, F, C, N" app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector "--enable=E, W, F, C, N" app/etl/read_config.py
+cwd: .
+##########Linting Output - prospector##########
+
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+##########Linting Output - prospector##########
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+[ERROR 2022-6-17 23:33:39.455]: Failed to parse Prospector output SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+##########Linting Output - prospector##########
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+[ERROR 2022-6-17 23:33:39.458]: Failed to parse Prospector output SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+##########Linting Output - prospector##########
+
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+##########Linting Output - prospector##########
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+[ERROR 2022-6-17 23:33:39.503]: Failed to parse Prospector output SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector "--enable=E, W, F, C,N" app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector "--enable=E, W, F, C,N" app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector "--enable=E, W, F, C,N" app/etl/read_config.py
+cwd: .
+##########Linting Output - prospector##########
+
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+##########Linting Output - prospector##########
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+[ERROR 2022-6-17 23:33:42.920]: Failed to parse Prospector output SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+##########Linting Output - prospector##########
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+[ERROR 2022-6-17 23:33:42.920]: Failed to parse Prospector output SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+##########Linting Output - prospector##########
+
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+##########Linting Output - prospector##########
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+[ERROR 2022-6-17 23:33:42.995]: Failed to parse Prospector output SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector "--enable=E, W, F,C,N" app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector "--enable=E, W, F,C,N" app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector "--enable=E, W, F,C,N" app/etl/helpers.py
+cwd: .
+##########Linting Output - prospector##########
+
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+##########Linting Output - prospector##########
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+[ERROR 2022-6-17 23:33:45.132]: Failed to parse Prospector output SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+##########Linting Output - prospector##########
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+[ERROR 2022-6-17 23:33:45.165]: Failed to parse Prospector output SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+##########Linting Output - prospector##########
+usage: prospector [-h] [-0] [-A] [-u USES] [-B] [-D] [-T] [-8] [-m] [-F]
+                  [--max-line-length MAX_LINE_LENGTH] [-M] [-S] [-q]
+                  [-o OUTPUT_FORMAT] [--absolute-paths] [-t TOOLS]
+                  [-w WITH_TOOLS] [-W WITHOUT_TOOLS] [-P PROFILES]
+                  [--profile-path PROFILE_PATH]
+                  [-s {veryhigh,high,medium,low,verylow}] [--show-profile]
+                  [-E] [--legacy-tool-names]
+                  [--pylint-config-file PYLINT_CONFIG_FILE] [-p PATH]
+                  [-I IGNORE_PATTERNS] [-i IGNORE_PATHS] [-X]
+                  [--include-tool-stdout] [--direct-tool-stdout] [--version]
+                  [PATH ...]
+[ERROR 2022-6-17 23:33:45.207]: Failed to parse Prospector output SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/read_config.py
+cwd: .
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:46.719]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:46.720]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:46.733]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/helpers.py
+cwd: .
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:50.486]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:50.487]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:50.513]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:51.755]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:51.820]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:51.820]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/helpers.py
+cwd: .
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:53.228]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:53.229]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:53.266]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/helpers.py
+cwd: .
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:58.957]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:58.973]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:33:58.985]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/helpers.py
+cwd: .
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:34:5.175]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:34:5.202]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:34:5.211]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector --enable=E,W,F,C,N app/etl/ps_etl.py
+cwd: .
+##########Linting Output - prospector##########
+
+
+##########Linting Output - prospector##########
+
+[ERROR 2022-6-17 23:34:42.197]: Failed to parse Prospector output SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a.parseMessages (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:505153)
+    at a.run (/home/bot/.vscode/extensions/ms-python.python-2022.10.1/out/client/extension.js:2:489825)
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+##########Linting Output - pycodestyle##########
+
+
+##########Linting Output - pycodestyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pycodestyle --max-line-length=100 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+##########Linting Output - pydocstyle##########
+
+
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pydocstyle ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pydocstyle##########
+
+
+##########Linting Output - pydocstyle##########
+
+
+##########Linting Output - pydocstyle##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylama##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylama##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylama ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylama##########
+
+
+##########Linting Output - pylama##########
+
+
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,N ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,N ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,N ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "Command line",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "Command line",
+        "symbol": "unknown-option-value",
+        "message": "Unknown option value for '--enable', expected a valid pylint message and got 'N'",
+        "message-id": "W0012"
+    }
+]
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "Command line",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "Command line",
+        "symbol": "unknown-option-value",
+        "message": "Unknown option value for '--enable', expected a valid pylint message and got 'N'",
+        "message-id": "W0012"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "Command line",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "Command line",
+        "symbol": "unknown-option-value",
+        "message": "Unknown option value for '--enable', expected a valid pylint message and got 'N'",
+        "message-id": "W0012"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,N ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[
+    {
+        "type": "warning",
+        "module": "Command line",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "Command line",
+        "symbol": "unknown-option-value",
+        "message": "Unknown option value for '--enable', expected a valid pylint message and got 'N'",
+        "message-id": "W0012"
+    }
+]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector -s veryhigh app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector -s veryhigh app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector -s veryhigh app/etl/helpers.py
+cwd: .
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:44:27.056508",
+    "libraries": [],
+    "strictness": "veryhigh",
+    "profiles": "default, strictness_veryhigh, no_doc_warnings, no_test_warnings, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2022-07-17 23:44:27.282896",
+    "time_taken": "0.23",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/read_config.py",
+        "module": null,
+        "function": null,
+        "line": 42,
+        "character": 80
+      },
+      "message": "line too long (81 > 79 characters)"
+    }
+  ]
+}
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:44:27.087967",
+    "libraries": [],
+    "strictness": "veryhigh",
+    "profiles": "default, strictness_veryhigh, no_doc_warnings, no_test_warnings, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 3,
+    "completed": "2022-07-17 23:44:27.349004",
+    "time_taken": "0.26",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py",
+        "module": null,
+        "function": null,
+        "line": 37,
+        "character": 80
+      },
+      "message": "line too long (86 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py",
+        "module": null,
+        "function": null,
+        "line": 60,
+        "character": 80
+      },
+      "message": "line too long (85 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py",
+        "module": null,
+        "function": null,
+        "line": 70,
+        "character": 80
+      },
+      "message": "line too long (80 > 79 characters)"
+    }
+  ]
+}
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:44:27.209678",
+    "libraries": [],
+    "strictness": "veryhigh",
+    "profiles": "default, strictness_veryhigh, no_doc_warnings, no_test_warnings, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 14,
+    "completed": "2022-07-17 23:44:27.925280",
+    "time_taken": "0.72",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 3,
+        "character": 80
+      },
+      "message": "line too long (92 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 25,
+        "character": 80
+      },
+      "message": "line too long (86 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 38,
+        "character": 80
+      },
+      "message": "line too long (95 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 77,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 124,
+        "character": 80
+      },
+      "message": "line too long (92 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 125,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 126,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 134,
+        "character": 80
+      },
+      "message": "line too long (83 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 139,
+        "character": 80
+      },
+      "message": "line too long (85 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 141,
+        "character": 80
+      },
+      "message": "line too long (95 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 151,
+        "character": 80
+      },
+      "message": "line too long (85 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 152,
+        "character": 80
+      },
+      "message": "line too long (82 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 174,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 185,
+        "character": 80
+      },
+      "message": "line too long (91 > 79 characters)"
+    }
+  ]
+}
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector -s veryhigh app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector -s veryhigh app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector -s veryhigh app/etl/ps_etl.py
+cwd: .
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:46:16.642180",
+    "libraries": [],
+    "strictness": "veryhigh",
+    "profiles": "default, strictness_veryhigh, no_doc_warnings, no_test_warnings, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 1,
+    "completed": "2022-07-17 23:46:16.886161",
+    "time_taken": "0.24",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/read_config.py",
+        "module": null,
+        "function": null,
+        "line": 42,
+        "character": 80
+      },
+      "message": "line too long (81 > 79 characters)"
+    }
+  ]
+}
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:46:16.737729",
+    "libraries": [],
+    "strictness": "veryhigh",
+    "profiles": "default, strictness_veryhigh, no_doc_warnings, no_test_warnings, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 3,
+    "completed": "2022-07-17 23:46:17.007146",
+    "time_taken": "0.27",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py",
+        "module": null,
+        "function": null,
+        "line": 37,
+        "character": 80
+      },
+      "message": "line too long (86 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py",
+        "module": null,
+        "function": null,
+        "line": 60,
+        "character": 80
+      },
+      "message": "line too long (85 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/helpers.py",
+        "module": null,
+        "function": null,
+        "line": 70,
+        "character": 80
+      },
+      "message": "line too long (80 > 79 characters)"
+    }
+  ]
+}
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:46:16.668294",
+    "libraries": [],
+    "strictness": "veryhigh",
+    "profiles": "default, strictness_veryhigh, no_doc_warnings, no_test_warnings, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 14,
+    "completed": "2022-07-17 23:46:17.459470",
+    "time_taken": "0.79",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 3,
+        "character": 80
+      },
+      "message": "line too long (92 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 25,
+        "character": 80
+      },
+      "message": "line too long (86 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 38,
+        "character": 80
+      },
+      "message": "line too long (95 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 77,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 124,
+        "character": 80
+      },
+      "message": "line too long (92 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 125,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 126,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 134,
+        "character": 80
+      },
+      "message": "line too long (83 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 139,
+        "character": 80
+      },
+      "message": "line too long (85 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 141,
+        "character": 80
+      },
+      "message": "line too long (95 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 151,
+        "character": 80
+      },
+      "message": "line too long (85 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 152,
+        "character": 80
+      },
+      "message": "line too long (82 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 174,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 185,
+        "character": 80
+      },
+      "message": "line too long (91 > 79 characters)"
+    }
+  ]
+}
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m prospector -s veryhigh app/etl/ps_etl.py
+cwd: .
+##########Linting Output - prospector##########
+
+{
+  "summary": {
+    "started": "2022-07-17 23:46:26.308816",
+    "libraries": [],
+    "strictness": "veryhigh",
+    "profiles": "default, strictness_veryhigh, no_doc_warnings, no_test_warnings, no_member_warnings",
+    "tools": [
+      "dodgy",
+      "mccabe",
+      "profile-validator",
+      "pycodestyle",
+      "pyflakes",
+      "pylint"
+    ],
+    "message_count": 14,
+    "completed": "2022-07-17 23:46:26.999464",
+    "time_taken": "0.69",
+    "formatter": "json"
+  },
+  "messages": [
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 3,
+        "character": 80
+      },
+      "message": "line too long (92 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 25,
+        "character": 80
+      },
+      "message": "line too long (86 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 38,
+        "character": 80
+      },
+      "message": "line too long (95 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 77,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 124,
+        "character": 80
+      },
+      "message": "line too long (92 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 125,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 126,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 134,
+        "character": 80
+      },
+      "message": "line too long (83 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 139,
+        "character": 80
+      },
+      "message": "line too long (85 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 141,
+        "character": 80
+      },
+      "message": "line too long (95 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 151,
+        "character": 80
+      },
+      "message": "line too long (85 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 152,
+        "character": 80
+      },
+      "message": "line too long (82 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 174,
+        "character": 80
+      },
+      "message": "line too long (94 > 79 characters)"
+    },
+    {
+      "source": "pycodestyle",
+      "code": "E501",
+      "location": {
+        "path": "/home/bot/AAMeineSachen/FL3XX/BRIGHT-reporting/app/etl/ps_etl.py",
+        "module": null,
+        "function": null,
+        "line": 185,
+        "character": 80
+      },
+      "message": "line too long (91 > 79 characters)"
+    }
+  ]
+}
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,W0612 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,W0612 ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,W0612 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=unused-variable ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=unused-variable ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=unused-variable ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py -m autopep8 --max-line-length=100 --diff ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=unused-variable ./app/etl/ps_etl.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,W0612 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,W0612 ./app/etl/helpers.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=F,E,W,C,W0612 ./app/etl/read_config.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/read_config.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/ps_etl.py
+cwd: .
+> ~/anaconda3/bin/conda run -n bright --no-capture-output python ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.10.1/pythonFiles/linter.py -m pylint --enable=W0612 ./app/etl/helpers.py
+cwd: .
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]
+##########Linting Output - pylint##########
+
+[]

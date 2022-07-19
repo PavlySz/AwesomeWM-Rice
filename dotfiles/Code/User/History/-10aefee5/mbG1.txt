@@ -1,0 +1,5 @@
+boto3
+redshift_connector 
+pandas 
+numpy
+psycopg2
